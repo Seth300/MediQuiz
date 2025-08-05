@@ -1,0 +1,4 @@
+[
+{"id":"1","examId":"au2","questionText":"test","questionAnswers":["test1", "test2","test3"],"correctAnswer":"test1","subject":"GEOGRAPHY"},
+  {"id":"2","examId":"mei","questionText":"test","questionAnswers":["test1", "test2","test3"],"correctAnswer":"test1","subject":"GEOGRAPHY"}
+]
