@@ -10,8 +10,8 @@
       "Deriva da un riarrangiamento del connettivo perifollicolare",
       "Circonda l'oocita e presenta i corpi di Call- Exner"
    ],
-   "correctAnswer": "Rappresenta un sistema di cavità\nanastomizzate in corrispondenza dell’ilo del\ntesticolo",
-   "subject": "ANATOMY"
+   "correctAnswer": "Rappresenta un sistema di cavità anastomizzate in corrispondenza dell'ilo del testicolo",
+   "subject": "APP_GEN_MASC"
 },
  {
    "id": 2,
@@ -25,7 +25,7 @@
       "Tutte le precedenti sono esatte"
    ],
    "correctAnswer": "Tutte le precedenti sono esatte",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_MASC"
 },
  {
    "id": 3,
@@ -38,8 +38,8 @@
       "Si arresta lungo la linea di Farre-Waldayer per continuare nell'epitelio germinativo",
       "Unisce il polo superiore dell'ovaia con la superficie esterna del padiglione della tuba uterina"
    ],
-   "correctAnswer": "Unisce il polo inferiore dell’ovaia all’angolo supero-laterale dell’utero",
-   "subject": "ANATOMY"
+   "correctAnswer": "Unisce il polo inferiore dell'ovaia all'angolo supero-laterale dell'utero",
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 4,
@@ -52,8 +52,8 @@
       "Presenta funzione protettiva, formando la barriera ematoovarica",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "È costituito da cellule cubiche, ma talvolta\nanche cilindriche o appiattite",
-   "subject": "ANATOMY"
+   "correctAnswer": "E costituito da cellule cubiche, ma talvolta anche cilindriche o appiattite",
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 5,
@@ -66,8 +66,8 @@
       "Deriva da un riarrangiamento del connettivo perifollicolare",
       "Circonda l'oocita e presenta i corpi di Call- Exner"
    ],
-   "correctAnswer": "Contiene materiale prodotto sia dalle cellule\nepiteliali del follicolo, sia dall’oocita",
-   "subject": "ANATOMY"
+   "correctAnswer": "Contiene materiale prodotto sia dalle cellule epiteliali del follicolo, sia dall'oocita",
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 6,
@@ -80,8 +80,8 @@
       "Anteriormente con i linfonodi di biforcazione e la faccia posteriore del pericardio",
       "Tutte le precedenti sono esatte"
    ],
-   "correctAnswer": "Anteriormente con i linfonodi di biforcazione\ne la faccia posteriore del pericardio",
-   "subject": "ANATOMY"
+   "correctAnswer": "Anteriormente con i linfonodi di biforcazione e la faccia posteriore del pericardio",
+   "subject": "ESOFAGO"
 },
  {
    "id": 7,
@@ -94,8 +94,8 @@
       "Le pareti laterali entrano in rapporto anche con l'arteria carotide esterna",
       "La parete posteriore volge verso lo spazio faringo-mandibolare"
    ],
-   "correctAnswer": "Le pareti laterali entrano in rapporto anche\ncon l’arteria carotide esterna",
-   "subject": "ANATOMY"
+   "correctAnswer": "Le pareti laterali entrano in rapporto anche con l'arteria carotide esterna",
+   "subject": "FARINGE"
 },
  {
    "id": 8,
@@ -108,8 +108,8 @@
       "Presenta una faccia laterale che chiude medialmente lo spazio mesenterio colico destro",
       "Presenta una faccia mediale in rapporto con i vasi genitali, l'uretere e la faccia anteriore del rene destro"
    ],
-   "correctAnswer": "Presenta una faccia posteriore in rapporto con\ni muscoli iliaco, quadrato dei lombi e\ntrasverso dell’addome",
-   "subject": "ANATOMY"
+   "correctAnswer": "Presenta una faccia posteriore in rapporto con i muscoli iliaco, quadrato dei lombi e trasverso dell'addome",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 9,
@@ -122,8 +122,8 @@
       "Anteriormente nella femmina ha rapporto con l'utero e i legamenti larghi",
       "È rivestito da peritoneo solo anteriormente e posteriormente"
    ],
-   "correctAnswer": "Anteriormente nella femmina ha rapporto con\nl’utero e i legamenti larghi",
-   "subject": "ANATOMY"
+   "correctAnswer": "Anteriormente nella femmina ha rapporto con l'utero e i legamenti larghi",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 10,
@@ -136,8 +136,8 @@
       "Ha rapporto lateralmente con il polo inferiore della milza",
       "Posteriormente ha rapporto col diaframma e con i muscoli quadrato dei lombi e trasverso dell'addome"
    ],
-   "correctAnswer": "Posteriormente ha rapporto col diaframma e\ncon i muscoli quadrato dei lombi e trasverso\ndell’addome",
-   "subject": "ANATOMY"
+   "correctAnswer": "Posteriormente ha rapporto col diaframma e con i muscoli quadrato dei lombi e trasverso dell'addome",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 11,
@@ -150,8 +150,8 @@
       "Ha rapporto anteriormente con la trachea, con la tiroide e con il nervo ricorrente sinistro",
       "Tutte le precedenti sono esatte"
    ],
-   "correctAnswer": "Ha rapporto anteriormente con la trachea, con\nla tiroide e con il nervo ricorrente sinistro",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto anteriormente con la trachea, con la tiroide e con il nervo ricorrente sinistro",
+   "subject": "ESOFAGO"
 },
  {
    "id": 12,
@@ -164,8 +164,8 @@
       "Le pareti laterali entrano in rapporto anche con l'arteria carotide esterna",
       "La parete posteriore volge verso lo spazio faringomandibolare"
    ],
-   "correctAnswer": "Le pareti laterali entrano in rapporto anche\ncon l’arteria carotide esterna",
-   "subject": "ANATOMY"
+   "correctAnswer": "Le pareti laterali entrano in rapporto anche con l'arteria carotide esterna",
+   "subject": "FARINGE"
 },
  {
    "id": 13,
@@ -178,8 +178,8 @@
       "Ha rapporto a sinistra con il seno pleurale costodiaframmatico e con il margine inferiore del polmone",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Ha rapporto a sinistra con il seno pleurale\ncostodiaframmatico e con il margine inferiore\ndel polmone",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto a sinistra con il seno pleurale costodiaframmatico e con il margine inferiore del polmone",
+   "subject": "STOMACO"
 },
  {
    "id": 14,
@@ -192,8 +192,8 @@
       "Lateralmente ha rapporto con il lobo destro del fegato e con la flessura destra del colon",
       "Appartiene completamente al duodeno sovramesocolico"
    ],
-   "correctAnswer": "Lateralmente ha rapporto con il lobo destro\ndel fegato e con la flessura destra del colon",
-   "subject": "ANATOMY"
+   "correctAnswer": "Lateralmente ha rapporto con il lobo destro del fegato e con la flessura destra del colon",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 15,
@@ -206,8 +206,8 @@
       "Presenta sulla faccia anteriore l'inserzione del grande omento",
       "Superiormente ha rapporto con il lobo caudato del fegato"
    ],
-   "correctAnswer": "Presenta sulla faccia anteriore l’inserzione del\ngrande omento",
-   "subject": "ANATOMY"
+   "correctAnswer": "Presenta sulla faccia anteriore l'inserzione del grande omento",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 16,
@@ -221,7 +221,7 @@
       "Ha funzione di assorbimento e di secrezione"
    ],
    "correctAnswer": "Rappresenta il polo di secrezione biliare",
-   "subject": "ANATOMY"
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 17,
@@ -234,8 +234,8 @@
       "Presenta fenestrature del diametro anche superiore a 1 mm",
       "Presentano fenestrature del diametro di 0.5, 0.6 mm"
    ],
-   "correctAnswer": "Appartengono al sistema dei fagociti\nmononucleati",
-   "subject": "ANATOMY"
+   "correctAnswer": "Appartengono al sistema dei fagociti mononucleati",
+   "subject": "FEGATO"
 },
  {
    "id": 18,
@@ -248,8 +248,8 @@
       "La faccia anteriore, convessa, è in rapporto con il muscolo pterigoideo interno e col processo mastoideo",
       "La faccia anteriore, concava, è in rapporto con il muscolo massetere, con il margine posteriore del ramo mandibolare e con il muscolo pterigoideo interno"
    ],
-   "correctAnswer": "La faccia anteriore, concava, è in rapporto con\nil muscolo massetere, con il margine\nposteriore del ramo mandibolare e con il\nmuscolo pterigoideo interno",
-   "subject": "ANATOMY"
+   "correctAnswer": "La faccia anteriore, concava, è in rapporto con il muscolo massetere, con il margine posteriore del ramo mandibolare e con il muscolo pterigoideo interno",
+   "subject": "PAROTIDE"
 },
  {
    "id": 19,
@@ -262,8 +262,8 @@
       "Nel fondo delle cripte del digiuno e dell'ileo",
       "Fra gli acini pancreatici"
    ],
-   "correctAnswer": "Nel fondo delle cripte del digiuno e dell’ileo",
-   "subject": "ANATOMY"
+   "correctAnswer": "Nel fondo delle cripte del digiuno e dell'ileo",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 20,
@@ -276,8 +276,8 @@
       "Il complesso di Golgi non è abbondante nella regione sopranucleare",
       "Tra le cellule a muco non si trovano desmosomi come nelle cellule sierose"
    ],
-   "correctAnswer": "Negli acini della parotide le cellule mio\nepiteliali sono ben evidenti a differenza delle\naltre ghiandole",
-   "subject": "ANATOMY"
+   "correctAnswer": "Negli acini della parotide le cellule mio epiteliali sono ben evidenti a differenza delle altre ghiandole",
+   "subject": "CAVO_ORALE"
 },
  {
    "id": 21,
@@ -291,7 +291,7 @@
       "Valvola di Vieussens"
    ],
    "correctAnswer": "Valvola di Vieussens",
-   "subject": "ANATOMY"
+   "subject": "CERVELLETTO"
 },
  {
    "id": 22,
@@ -304,8 +304,8 @@
       "La decussazione di Forel",
       "Il culmen"
    ],
-   "correctAnswer": "L’ala bianca interna",
-   "subject": "ANATOMY"
+   "correctAnswer": "L'ala bianca interna",
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 23,
@@ -319,7 +319,7 @@
       "Ai corpi genicolati"
    ],
    "correctAnswer": "Ai nuclei vestibolari",
-   "subject": "ANATOMY"
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 24,
@@ -333,7 +333,7 @@
       "Corrisponde al nucleo di origine del nervo ipoglosso"
    ],
    "correctAnswer": "Corrisponde ai nuclei vestibolari",
-   "subject": "ANATOMY"
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 25,
@@ -347,7 +347,7 @@
       "L'eminentia teres e la lamina quadrigemina"
    ],
    "correctAnswer": "I peduncoli cerebrali e la lamina quadrigemina",
-   "subject": "ANATOMY"
+   "subject": "MESENCEFALO"
 },
  {
    "id": 26,
@@ -361,7 +361,7 @@
       "Neuroglia, gangli e neuroni"
    ],
    "correctAnswer": "Nervi, gangli e recettori",
-   "subject": "ANATOMY"
+   "subject": "SNP"
 },
  {
    "id": 27,
@@ -375,7 +375,7 @@
       "Giunzioni citoneurali"
    ],
    "correctAnswer": "Giunzioni citoneurali",
-   "subject": "ANATOMY"
+   "subject": "SNP"
 },
  {
    "id": 28,
@@ -388,8 +388,8 @@
       "Neuroni con apparato di Golgi ipertrofico",
       "Neuroni dotati di spessa guaina mielinica"
    ],
-   "correctAnswer": "Relativamente piccoli con assone breve che si\nesaurisce in prossimità del corpo cellulare",
-   "subject": "ANATOMY"
+   "correctAnswer": "Relativamente grandi con assoni lunghi che collegano parti differenti del sistema nervoso",
+   "subject": "SNP"
 },
  {
    "id": 29,
@@ -403,7 +403,7 @@
       "Tutte le precedenti risposte sono esatte"
    ],
    "correctAnswer": "Tutte le precedenti risposte sono esatte",
-   "subject": "ANATOMY"
+   "subject": "SNP"
 },
  {
    "id": 30,
@@ -417,7 +417,7 @@
       "È di diametro connesso alle proporzioni del soggetto"
    ],
    "correctAnswer": "Occupa il canale vertebrale fino a L1-L2",
-   "subject": "ANATOMY"
+   "subject": "MIDOLLO_SPINALE"
 },
  {
    "id": 31,
@@ -431,7 +431,7 @@
       "Ventrale e dorsale"
    ],
    "correctAnswer": "Laterale e mediale",
-   "subject": "ANATOMY"
+   "subject": "TRONCO_ENCEFALICO"
 },
  {
    "id": 32,
@@ -445,7 +445,7 @@
       "Le fibre del muscolo trigemino"
    ],
    "correctAnswer": "Le fibre arciformi esterne",
-   "subject": "ANATOMY"
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 33,
@@ -459,7 +459,7 @@
       "Tutte le precedenti risposte sono errate"
    ],
    "correctAnswer": "Del nervo intermedio",
-   "subject": "ANATOMY"
+   "subject": "TRONCO_ENCEFALICO"
 },
  {
    "id": 34,
@@ -472,8 +472,8 @@
       "Presenta alla base i corpi mammillari e le strie arciformi esterne",
       "Presenta alla base il tubercolo cocleare e le strie acustiche"
    ],
-   "correctAnswer": "Presenta alla base il tubercolo cocleare e le\nstrie acustiche",
-   "subject": "ANATOMY"
+   "correctAnswer": "Presenta alla base il tubercolo cocleare e le strie acustiche",
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 35,
@@ -487,7 +487,7 @@
       "Tutte le precedenti risposte sono errate"
    ],
    "correctAnswer": "Diartrosi",
-   "subject": "ANATOMY"
+   "subject": "UDITO"
 },
  {
    "id": 36,
@@ -500,8 +500,8 @@
       "La commessura grigia ed il corno anteriore",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "La sostanza gelatinosa di Rolando e la zona\nmarginale",
-   "subject": "ANATOMY"
+   "correctAnswer": "La sostanza gelatinosa di Rolando e la zona marginale",
+   "subject": "MIDOLLO_SPINALE"
 },
  {
    "id": 37,
@@ -514,8 +514,8 @@
       "Va a costituire i nervi periferici somato- sensitivi",
       "Le cellule funicolari non hanno neurite"
    ],
-   "correctAnswer": "Si mantiene, in tutto il suo decorso,\nnell’ambito del nevrass",
-   "subject": "ANATOMY"
+   "correctAnswer": "Si mantiene, in tutto il suo decorso, nell'ambito del nevrasse",
+   "subject": "MIDOLLO_SPINALE"
 },
  {
    "id": 38,
@@ -529,7 +529,7 @@
       "Al corno anteriore"
    ],
    "correctAnswer": "Alla sostanza gelatinosa di Rolando",
-   "subject": "ANATOMY"
+   "subject": "MIDOLLO_SPINALE"
 },
  {
    "id": 39,
@@ -543,7 +543,7 @@
       "Tutte le precedenti risposte sono errate"
    ],
    "correctAnswer": "Ai nuclei ventro-postero-laterale del talamo",
-   "subject": "ANATOMY"
+   "subject": "TALAMO"
 },
  {
    "id": 40,
@@ -557,7 +557,7 @@
       "Il corpo mammillare"
    ],
    "correctAnswer": "Il lemnisco mediale",
-   "subject": "ANATOMY"
+   "subject": "TALAMO"
 },
  {
    "id": 41,
@@ -570,8 +570,8 @@
       "I dotti intralobulari presentano un epitelio bacillare",
       "La parete dei dotti pancreatici è costituita da un epitelio batiprismatico ciliato"
    ],
-   "correctAnswer": "Ai condottini intercalari seguono i condotti\nintralobulari",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ai condottini intercalari seguono i condotti intralobulari",
+   "subject": "PANCREAS"
 },
  {
    "id": 42,
@@ -584,8 +584,8 @@
       "La componente ghiandolare in sede mucosa",
       "La componente ghiandolare in sede sottomucosa"
    ],
-   "correctAnswer": "La componente ghiandolare in sede\nsottomucosa",
-   "subject": "ANATOMY"
+   "correctAnswer": "La componente ghiandolare in sede sottomucosa",
+   "subject": "PANCREAS"
 },
  {
    "id": 43,
@@ -599,7 +599,7 @@
       "Cellula secernente muco"
    ],
    "correctAnswer": "Cellula ossifila",
-   "subject": "ANATOMY"
+   "subject": "STOMACO"
 },
  {
    "id": 44,
@@ -613,7 +613,7 @@
       "Nello spessore della tonaca muscolare"
    ],
    "correctAnswer": "Nello spessore della tonaca muscolare",
-   "subject": "ANATOMY"
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 45,
@@ -627,7 +627,7 @@
       "Rilascio della bile"
    ],
    "correctAnswer": "Produzione di ormoni steroidi",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 46,
@@ -640,8 +640,8 @@
       "Lateralmente delimita lo spazio parietocolico sinistro con la parete laterale dell'addome",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Ha rapporto lateralmente con il polo inferiore\ndella milza",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto lateralmente con il polo inferiore della milza",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 47,
@@ -654,8 +654,8 @@
       "Riceve lo sbocco del dotto pancreatico principale",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Ha rapporto posteriormente con il dotto\ncoledoco, la vena porta e l’arteria epatica",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto posteriormente con il dotto coledoco, la vena porta e l'arteria epatica",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 48,
@@ -668,8 +668,8 @@
       "A livello della 1^ vertebra lombare si continua nella flessura duodeno digiunale",
       "Ha rapporto posteriormente con il margine laterale del rene"
    ],
-   "correctAnswer": "Decorre obliquamente in alto spingendosi fin\nsotto la radice del mesocolon trasverso",
-   "subject": "ANATOMY"
+   "correctAnswer": "Decorre obliquamente in alto spingendosi fin sotto la radice del mesocolon trasverso",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 49,
@@ -682,8 +682,8 @@
       "Ha rapporto con la milza, il pancreas, con il plesso celiaco e la colonna vertebrale",
       "Ha rapporto con numerosi organi dello spazio sottomesocolico"
    ],
-   "correctAnswer": "Ha rapporto anche con la milza, con il seno\npleurale costodiaframmatico sinistro e\npancreas",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto anche con la milza, con il seno pleurale costodiaframmatico sinistro e pancreas",
+   "subject": "STOMACO"
 },
  {
    "id": 50,
@@ -696,8 +696,8 @@
       "I canali di Hering sono formati da poche cellule cubiche",
       "I canalicoli biliari interlobulari non hanno parete propria"
    ],
-   "correctAnswer": "I canali di Hering sono formati da poche\ncellule cubiche",
-   "subject": "ANATOMY"
+   "correctAnswer": "I canali di Hering sono formati da poche cellule cubiche",
+   "subject": "FEGATO"
 },
  {
    "id": 51,
@@ -711,7 +711,7 @@
       "Tagliare il legame peptidico"
    ],
    "correctAnswer": "Consentire la progressione del cibo",
-   "subject": "ANATOMY"
+   "subject": "ESOFAGO"
 },
  {
    "id": 52,
@@ -724,8 +724,8 @@
       "Cellule capo, ossintiche, indifferenziate e cellule ECL",
       "Cellule secernenti muco, gastrina e pepsinogeno"
    ],
-   "correctAnswer": "Cellule capo, ossintiche, indifferenziate e\ncellule ECL",
-   "subject": "ANATOMY"
+   "correctAnswer": "Cellule capo, ossintiche, indifferenziate e cellule ECL",
+   "subject": "STOMACO"
 },
  {
    "id": 53,
@@ -739,7 +739,7 @@
       "Villo / valvola connivente / microvillo"
    ],
    "correctAnswer": "Valvola connivente / villo / microvillo",
-   "subject": "ANATOMY"
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 54,
@@ -753,7 +753,7 @@
       "Condottini biliari"
    ],
    "correctAnswer": "Cellule di Ito, collagene, proteine plasmatiche",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 55,
@@ -767,7 +767,7 @@
       "Acqua, immunoglobuline, linfociti"
    ],
    "correctAnswer": "Acqua, elettroliti, lisozima, amilasi",
-   "subject": "ANATOMY"
+   "subject": "CAVO_ORALE"
 },
  {
    "id": 56,
@@ -781,7 +781,7 @@
       "Cilindrico composto"
    ],
    "correctAnswer": "Cilindrico semplice",
-   "subject": "ANATOMY"
+   "subject": "STOMACO"
 },
  {
    "id": 57,
@@ -795,7 +795,7 @@
       "Solo lamina propria"
    ],
    "correctAnswer": "Parte della tonaca mucosa",
-   "subject": "ANATOMY"
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 58,
@@ -809,7 +809,7 @@
       "Terminali nervosi"
    ],
    "correctAnswer": "Follicoli linfatici",
-   "subject": "ANATOMY"
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 59,
@@ -823,7 +823,7 @@
       "Giunzioni citoneurali"
    ],
    "correctAnswer": "Cellule assorbenti",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 60,
@@ -836,8 +836,8 @@
       "La faccia anteriore dell'istmo ha rapporto con l'origine della vena porta",
       "La porzione sottomesocolica della testa è incrociata anteriormente dall'arteria gastroduodenale"
    ],
-   "correctAnswer": "La coda, posteriormente, ha rapporto con il\nrene sinistro",
-   "subject": "ANATOMY"
+   "correctAnswer": "La coda, posteriormente, ha rapporto con il rene sinistro",
+   "subject": "PANCREAS"
 },
  {
    "id": 61,
@@ -850,8 +850,8 @@
       "Il fondo ha rapporto profondamente ed inferiormente con il colon trasverso",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Il fondo ha rapporto profondamente ed\ninferiormente con il colon trasverso",
-   "subject": "ANATOMY"
+   "correctAnswer": "Il fondo ha rapporto profondamente ed inferiormente con il colon trasverso",
+   "subject": "FEGATO"
 },
  {
    "id": 62,
@@ -864,8 +864,8 @@
       "La faccia anteriore della parte profonda ha rapporto con l'articolazione temporomandibolare",
       "L'apice della faccia esterna, volto superiormente, raggiunge la ghiandola sottomandibolare"
    ],
-   "correctAnswer": "La base della faccia esterna corrisponde alla\nparte cartilaginea del meato acustico esterno e\nall’arcata zigomatica",
-   "subject": "ANATOMY"
+   "correctAnswer": "La base della faccia esterna corrisponde alla parte cartilaginea del meato acustico esterno e all'arcata zigomatica",
+   "subject": "PAROTIDE"
 },
  {
    "id": 63,
@@ -878,8 +878,8 @@
       "Presentano cellule con carattere intermedio tra le cellule di Kupffer e quelle endoteliali",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Sono interrotti da sottili prolungamenti\ncitoplasmatici di tipo ameboide proveniente\ndalle cellule stellate di Kupffer",
-   "subject": "ANATOMY"
+   "correctAnswer": "Sono interrotti da sottili prolungamenti citoplasmatici di tipo ameboide proveniente dalle cellule stellate di Kupffer",
+   "subject": "FEGATO"
 },
  {
    "id": 64,
@@ -892,8 +892,8 @@
       "Presentano numerose cisterne del RE, che per la maggior parte si presentano liscie",
       "Presentano mitocondri con numerose creste perpendicolari l'una all'altra"
    ],
-   "correctAnswer": "Presentano numerose cisterne del RE, che per\nla maggior parte si presentano liscie",
-   "subject": "ANATOMY"
+   "correctAnswer": "Presentano numerose cisterne del RE, che per la maggior parte si presentano liscie",
+   "subject": "STOMACO"
 },
  {
    "id": 65,
@@ -906,8 +906,8 @@
       "La parete latrale ha rapporto con il nervo ipoglosso, il nervo accessorio e con la vena giugulare esterna",
       "Il labbro anteriore dell'orifizio tubarico è detto anche torus tubarius"
    ],
-   "correctAnswer": "L’orofaringe è compresa tra la faccia inferiore\ndel palato molle e un piano orizzontale\npassante per il margine superiore dell’osso\nioide",
-   "subject": "ANATOMY"
+   "correctAnswer": "L'orofaringe è compresa tra la faccia inferiore del palato molle e un piano orizzontale passante per il margine superiore dell'osso ioide",
+   "subject": "FARINGE"
 },
  {
    "id": 66,
@@ -920,8 +920,8 @@
       "Anteriormente con il nervo ricorrente destro e con il muscolo sterno tiroideo",
       "Posteriormente con il nervo ricorrente destro e con la fascia cervicale media"
    ],
-   "correctAnswer": "Posteriormente con la fascia cervicale\nprofonda",
-   "subject": "ANATOMY"
+   "correctAnswer": "Posteriormente con la fascia cervicale profonda",
+   "subject": "ESOFAGO"
 },
  {
    "id": 67,
@@ -934,8 +934,8 @@
       "E rivestita dal peritoneo solo sulla faccia anteriore e sul margine destro ed è incrociata dalla radice del mesocolon trasverso",
       "Ha rapporto lateralmente con l'arteria colica destra"
    ],
-   "correctAnswer": "È rivestita dal peritoneo solo sulla faccia\nanteriore e sul margine destro ed è incrociata\ndalla radice del mesocolon trasverso",
-   "subject": "ANATOMY"
+   "correctAnswer": "E rivestita dal peritoneo solo sulla faccia anteriore e sul margine destro ed è incrociata dalla radice del mesocolon trasverso",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 68,
@@ -948,8 +948,8 @@
       "I nervi vaghi destro e sinistro formano, in prossimità della grande curvatura, due plessi",
       "La parete anteriore ha rapporto, tramite il mesocolon trasverso, con le anse intestinali, la flessura duodeno digiunale e la parte ascendente del duodeno"
    ],
-   "correctAnswer": "La parete anteriore ha rapporto, tramite il\nmesocolon trasverso, con le anse intestinali, la\nflessura duodeno digiunale e la parte\nascendente del duodeno",
-   "subject": "ANATOMY"
+   "correctAnswer": "La parete anteriore ha rapporto, tramite il mesocolon trasverso, con le anse intestinali, la flessura duodeno digiunale e la parte ascendente del duodeno",
+   "subject": "STOMACO"
 },
  {
    "id": 69,
@@ -962,8 +962,8 @@
       "Ha rapporto anteriormente, medialmente e lateralmente con le anse del tenue",
       "Nella femmina ha rapporto lateralmente con i legamenti larghi"
    ],
-   "correctAnswer": "Ha rapporto anteriormente, medialmente e\nlateralmente con le anse del tenue",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto anteriormente, medialmente e lateralmente con le anse del tenue",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 70,
@@ -976,8 +976,8 @@
       "Posteriormente con l'aorta addominale e i pilastri laterali del diaframma",
       "A sinistra con il fondo dello stomaco e posteriormente coi pilastri mediali del diaframma"
    ],
-   "correctAnswer": "A sinistra con il fondo dello stomaco e\nposteriormente coi pilastri mediali del\ndiaframm",
-   "subject": "ANATOMY"
+   "correctAnswer": "A sinistra con il fondo dello stomaco e posteriormente coi pilastri mediali del diaframma",
+   "subject": "ESOFAGO"
 },
  {
    "id": 71,
@@ -990,8 +990,8 @@
       "Ha rapporto posteriormente con il corpo del pancreas",
       "È connessa al lobo quadrato del fegato tramite il legamento epatoduodenale"
    ],
-   "correctAnswer": ") Posteriormente ha rapporto con la vena cava\ninferiore e con l’aorta",
-   "subject": "ANATOMY"
+   "correctAnswer": "Posteriormente ha rapporto con la vena cava inferiore e con l'aorta",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 72,
@@ -1004,8 +1004,8 @@
       "Lateralmente ha rapporto con il lobo destro del fegato e con la flessura destra del colon",
       "Appartiene completamente al duodeno sovramesocolico"
    ],
-   "correctAnswer": "Lateralmente ha rapporto con il lobo destro\ndel fegato e con la flessura destra del colon",
-   "subject": "ANATOMY"
+   "correctAnswer": "Lateralmente ha rapporto con il lobo destro del fegato e con la flessura destra del colon",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 73,
@@ -1019,7 +1019,7 @@
       "Tutte le precedenti sono errate"
    ],
    "correctAnswer": "Tutte le precedenti sono errate",
-   "subject": "ANATOMY"
+   "subject": "STOMACO"
 },
  {
    "id": 74,
@@ -1032,8 +1032,8 @@
       "Le pareti laterali entrano in rapporto anche con l'arteria carotide esterna",
       "La parete posteriore volge verso lo spazio faringomandibolare"
    ],
-   "correctAnswer": "Le pareti laterali entrano in rapporto anche\ncon l’arteria carotide esterna",
-   "subject": "ANATOMY"
+   "correctAnswer": "Le pareti laterali entrano in rapporto anche con l'arteria carotide esterna",
+   "subject": "FARINGE"
 },
  {
    "id": 75,
@@ -1046,8 +1046,8 @@
       "Corrisponde inferiormente ad un piano passante per la 6^ vertebre cervicale",
       "Ha come limite inferiore la faccia superiore del palato molle"
    ],
-   "correctAnswer": "Ha come limite inferiore la faccia superiore\ndel palato molle",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha come limite inferiore la faccia superiore del palato molle",
+   "subject": "FARINGE"
 },
  {
    "id": 76,
@@ -1060,8 +1060,8 @@
       "La parete anteriore ha rapporto con la faccia posteriore delle cartilagini aritenoidi",
       "La volta ha rapporto con la base cranica tramite una linea convessa in avanti"
    ],
-   "correctAnswer": "La parete anteriore ha rapporto con la faccia\nposteriore delle cartilagini aritenoidi",
-   "subject": "ANATOMY"
+   "correctAnswer": "La parete anteriore ha rapporto con la faccia posteriore delle cartilagini aritenoidi",
+   "subject": "FARINGE"
 },
  {
    "id": 77,
@@ -1075,7 +1075,7 @@
       "Il lobo caudato del fegato"
    ],
    "correctAnswer": "Il lobo sinistro del fegato",
-   "subject": "ANATOMY"
+   "subject": "ESOFAGO"
 },
  {
    "id": 78,
@@ -1088,8 +1088,8 @@
       "È compreso fra il solco laterale anteriore e quello laterale posteriore",
       "Non sempre esiste"
    ],
-   "correctAnswer": "È compresa fra la fessura mediana anteriore e\nil solco laterale anteriore del midollo",
-   "subject": "ANATOMY"
+   "correctAnswer": "E compresa fra la fessura mediana anteriore e il solco laterale anteriore del midollo",
+   "subject": "MIDOLLO_SPINALE"
 },
  {
    "id": 79,
@@ -1103,7 +1103,7 @@
       "Nello strato sottopiale"
    ],
    "correctAnswer": "Colonna posteriore",
-   "subject": "ANATOMY"
+   "subject": "MIDOLLO_SPINALE"
 },
  {
    "id": 80,
@@ -1116,8 +1116,8 @@
       "Originano da cellule funicolari",
       "Si trovano a ridosso della sostanza grigia"
    ],
-   "correctAnswer": "Originano da cellule funicolari\ne) Si trovano a ridosso della sostanza grigia",
-   "subject": "ANATOMY"
+   "correctAnswer": "Originano da cellule funicolari",
+   "subject": "MIDOLLO_SPINALE"
 },
  {
    "id": 81,
@@ -1130,8 +1130,8 @@
       "A livello della sostanza grigia periacqueduttale",
       "A livello della corteccia dei lobi frontali"
    ],
-   "correctAnswer": "A livello della sostanza grigia\nperiacqueduttale",
-   "subject": "ANATOMY"
+   "correctAnswer": "A livello della sostanza grigia periacqueduttale",
+   "subject": "MESENCEFALO"
 },
  {
    "id": 82,
@@ -1144,8 +1144,8 @@
       "Del nucleo dentato",
       "Della corteccia del lobo anteriore"
    ],
-   "correctAnswer": "Della corteccia dell’emisfero omolaterale",
-   "subject": "ANATOMY"
+   "correctAnswer": "Della corteccia dell'emisfero omolaterale",
+   "subject": "CERVELLETTO"
 },
  {
    "id": 83,
@@ -1159,7 +1159,7 @@
       "Limbico"
    ],
    "correctAnswer": "Occipitale",
-   "subject": "ANATOMY"
+   "subject": "TELENCEFALO"
 },
  {
    "id": 84,
@@ -1173,7 +1173,7 @@
       "Polare"
    ],
    "correctAnswer": "Agranulare",
-   "subject": "ANATOMY"
+   "subject": "TELENCEFALO"
 },
  {
    "id": 85,
@@ -1187,7 +1187,7 @@
       "Motrice primaria extrapiramidale"
    ],
    "correctAnswer": "Motrice primaria piramidale",
-   "subject": "ANATOMY"
+   "subject": "TELENCEFALO"
 },
  {
    "id": 86,
@@ -1201,7 +1201,7 @@
       "Un nucleo di connessione"
    ],
    "correctAnswer": "Motore somatico",
-   "subject": "ANATOMY"
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 87,
@@ -1214,8 +1214,8 @@
       "Nei neuroni pseudo unipolari del ganglio nodoso",
       "Nei neuroni pseudo unipolari del ganglio stellato"
    ],
-   "correctAnswer": "Nei neuroni pseudo unipolari del ganglio\npetroso",
-   "subject": "ANATOMY"
+   "correctAnswer": "Nei neuroni pseudo unipolari del ganglio petroso",
+   "subject": "NERVI_CRANICI"
 },
  {
    "id": 88,
@@ -1229,7 +1229,7 @@
       "Propriocettiva"
    ],
    "correctAnswer": "Gustativa",
-   "subject": "ANATOMY"
+   "subject": "NERVI_CRANICI"
 },
  {
    "id": 89,
@@ -1243,7 +1243,7 @@
       "Postgangliari ortosimpatici"
    ],
    "correctAnswer": "Postgangliari parasimpatici",
-   "subject": "ANATOMY"
+   "subject": "NERVI_CRANICI"
 },
  {
    "id": 90,
@@ -1256,8 +1256,8 @@
       "È ricca di vasi sanguigni",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Fa parte del sistema diottrico dell’occhio",
-   "subject": "ANATOMY"
+   "correctAnswer": "Fa parte del sistema diottrico dell'occhio",
+   "subject": "VISTA"
 },
  {
    "id": 91,
@@ -1271,7 +1271,7 @@
       "Tutte le precedenti sono errate"
    ],
    "correctAnswer": "Arteria ciliare",
-   "subject": "ANATOMY"
+   "subject": "VISTA"
 },
  {
    "id": 92,
@@ -1285,7 +1285,7 @@
       "Fascio rubrospinale"
    ],
    "correctAnswer": "Fascio rubrospinale",
-   "subject": "ANATOMY"
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 93,
@@ -1299,7 +1299,7 @@
       "Noradrenalina"
    ],
    "correctAnswer": "Dopamina",
-   "subject": "ANATOMY"
+   "subject": "MESENCEFALO"
 },
  {
    "id": 94,
@@ -1313,7 +1313,7 @@
       "Tutte le precedenti sono errate"
    ],
    "correctAnswer": "È suddivisa in lobuli da sepimenti connettivali",
-   "subject": "ANATOMY"
+   "subject": "TIROIDE"
 },
  {
    "id": 95,
@@ -1326,8 +1326,8 @@
       "Sono rivolte verso cavità follicolari contenenti granuli di secreto glicoproteico",
       "Insieme alle cellule alfa sono capaci si secernere ormoni proteici, essendo le cellule di tipo acidofilo"
    ],
-   "correctAnswer": "Presentano cisterne del reticolo\nendoplasmatico dilatate e contenenti materiale\nscarsamente opaco agli elettroni",
-   "subject": "ANATOMY"
+   "correctAnswer": "Presentano cisterne del reticolo endoplasmatico dilatate e contenenti materiale scarsamente opaco agli elettroni",
+   "subject": "TIROIDE"
 },
  {
    "id": 96,
@@ -1341,7 +1341,7 @@
       "Pia madre"
    ],
    "correctAnswer": "Ependima",
-   "subject": "ANATOMY"
+   "subject": "SNC"
 },
  {
    "id": 97,
@@ -1355,7 +1355,7 @@
       "Nessuna delle precedenti è esatta"
    ],
    "correctAnswer": "Plessi corioidei",
-   "subject": "ANATOMY"
+   "subject": "SNC"
 },
  {
    "id": 98,
@@ -1369,7 +1369,7 @@
       "Negli spazi intercellulari"
    ],
    "correctAnswer": "A livello della membrana neuronale",
-   "subject": "ANATOMY"
+   "subject": "SNC"
 },
  {
    "id": 99,
@@ -1383,7 +1383,7 @@
       "Emergono dal solco laterale anteriore"
    ],
    "correctAnswer": "Emergono dal solco laterale anteriore",
-   "subject": "ANATOMY"
+   "subject": "SNP"
 },
  {
    "id": 100,
@@ -1397,7 +1397,7 @@
       "Un chemiocettore"
    ],
    "correctAnswer": "Un ganglio",
-   "subject": "ANATOMY"
+   "subject": "SNP"
 },
  {
    "id": 101,
@@ -1411,7 +1411,7 @@
       "Tutti gli elementi citati"
    ],
    "correctAnswer": "La continuità col bulbo",
-   "subject": "ANATOMY"
+   "subject": "MIDOLLO_SPINALE"
 },
  {
    "id": 102,
@@ -1424,8 +1424,8 @@
       "Ha rapporto con il muscolo trasverso dell'addome essendo rivestita dalla sua guaina",
       "Ha rapporto con l'aorta, i pilastri mediali del diaframma, la colonna vertebrale, l'arteria celiaca e i plesso celiaco"
    ],
-   "correctAnswer": "Ha rapporto con l’aorta, i pilastri mediali del\ndiaframma, la colonna vertebrale, l’arteria\nceliaca e i plesso celiaco",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto con l'aorta, i pilastri mediali del diaframma, la colonna vertebrale, l'arteria celiaca e i plesso celiaco",
+   "subject": "STOMACO"
 },
  {
    "id": 103,
@@ -1438,8 +1438,8 @@
       "Il solco trasverso contiene nel suo terzo mediale la fossa cistica",
       "Il legamento falciforme connette la faccia posteriore del fegato ai pilastri mediali del diaframma"
    ],
-   "correctAnswer": "Sulla faccia viscerale del lobo destro tra\nl’impronta colica e quella renale si trova\nl’impronta duodenale",
-   "subject": "ANATOMY"
+   "correctAnswer": "Sulla faccia viscerale del lobo destro tra l'impronta colica e quella renale si trova l'impronta duodenale",
+   "subject": "FEGATO"
 },
  {
    "id": 104,
@@ -1452,8 +1452,8 @@
       "Insieme al dotto cistico rappresenta la via biliare secondaria",
       "Il segmento infraduodenale incrocia anteriormente il dotto pancreatico accessorio"
    ],
-   "correctAnswer": "Il segmento retro duodenale si estende dal\nmargine superiore della prima porzione del\nduodeno alla testa dal pancreas",
-   "subject": "ANATOMY"
+   "correctAnswer": "Il segmento retro duodenale si estende dal margine superiore della prima porzione del duodeno alla testa dal pancreas",
+   "subject": "FEGATO"
 },
  {
    "id": 105,
@@ -1466,8 +1466,8 @@
       "Riceve lo sbocco delle vene epatiche",
       "Riceve lo sbocco delle vene sottolobulari"
    ],
-   "correctAnswer": "La sua parete è costituita da endotelio\ncircondato da uno strato di connettivo fibroso",
-   "subject": "ANATOMY"
+   "correctAnswer": "La sua parete è costituita da endotelio circondato da uno strato di connettivo fibroso",
+   "subject": "FEGATO"
 },
  {
    "id": 106,
@@ -1480,8 +1480,8 @@
       "La piccola curvatura discende a sinistra delle ultime tre vertebre toraciche e della prima vertebre lombara",
       "Tutte le precedenti sono esatte"
    ],
-   "correctAnswer": "L’antro pilorico, anteriormente, è coperto dal\nlobo quadrato del fegato",
-   "subject": "ANATOMY"
+   "correctAnswer": "L'antro pilorico, anteriormente, è coperto dal lobo quadrato del fegato",
+   "subject": "STOMACO"
 },
  {
    "id": 107,
@@ -1494,8 +1494,8 @@
       "Presenta una tonaca muscolare che contiene il plesso nervoso di Meissner",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Presenta una faccia mediale che chiude\nlateralmente lo spazio mesenterio colico\ndestro",
-   "subject": "ANATOMY"
+   "correctAnswer": "Presenta una faccia mediale che chiude lateralmente lo spazio mesenterio colico destro",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 108,
@@ -1508,8 +1508,8 @@
       "Il tratto anteriore del solco sagittale destro contiene il legamento rotondo",
       "La faccia diaframmatica del lobo destro presenta una depressione detta impressione cardiaca"
    ],
-   "correctAnswer": "La fossa cistica è separata dalla fossa della\nvena cava dal tubercolo caudato",
-   "subject": "ANATOMY"
+   "correctAnswer": "La fossa cistica è separata dalla fossa della vena cava dal tubercolo caudato",
+   "subject": "FEGATO"
 },
  {
    "id": 109,
@@ -1522,8 +1522,8 @@
       "Si definiscono acini complessi quei territori di parenchima che ricevono sangue dai rami portali preterminali",
       "L'endotelio dei sinusoidi è privo di pori e fenestrature"
    ],
-   "correctAnswer": "Si definiscono acini complessi quei territori di\nparenchima che ricevono sangue dai rami\nportali preterminali",
-   "subject": "ANATOMY"
+   "correctAnswer": "Si definiscono acini complessi quei territori di parenchima che ricevono sangue dai rami portali preterminali",
+   "subject": "FEGATO"
 },
  {
    "id": 110,
@@ -1536,8 +1536,8 @@
       "La flessura destra del colon posteriormente ha rapporto con il rene e con la porzione orizzontale del duodeno",
       "La valvola ileocecale è mantenuta in sede per azione del mesenteriolo che la unisce al mesentere"
    ],
-   "correctAnswer": "Il colon pelvico anteriormente, nella femmina,\nha rapporto con l’utero e il legamenti larghi",
-   "subject": "ANATOMY"
+   "correctAnswer": "Il colon pelvico anteriormente, nella femmina, ha rapporto con l'utero e il legamenti larghi",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 111,
@@ -1551,7 +1551,7 @@
       "Fascicolo uncinato"
    ],
    "correctAnswer": "Fascicolo longitudinale mediale",
-   "subject": "ANATOMY"
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 112,
@@ -1565,7 +1565,7 @@
       "Della lamina 9-10 dei neuromeri toracici e lombari"
    ],
    "correctAnswer": "Delle corna anteriori dei neuromeri cervicali",
-   "subject": "ANATOMY"
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 113,
@@ -1579,7 +1579,7 @@
       "Dai tubercoli quadri gemelli superiori"
    ],
    "correctAnswer": "Dai tubercoli quadri gemelli superiori",
-   "subject": "ANATOMY"
+   "subject": "MESENCEFALO"
 },
  {
    "id": 114,
@@ -1593,7 +1593,7 @@
       "Tutte le precedenti risposte sono errate"
    ],
    "correctAnswer": "Tutte le precedenti risposte sono errate",
-   "subject": "ANATOMY"
+   "subject": "TRONCO_ENCEFALICO"
 },
  {
    "id": 115,
@@ -1607,7 +1607,7 @@
       "Del nervo olfattivo"
    ],
    "correctAnswer": "Del fascicolo gracile",
-   "subject": "ANATOMY"
+   "subject": "BULBO_SPINALE"
 },
  {
    "id": 116,
@@ -1621,7 +1621,7 @@
       "Solco basilare"
    ],
    "correctAnswer": "Solco basilare",
-   "subject": "ANATOMY"
+   "subject": "TRONCO_ENCEFALICO"
 },
  {
    "id": 117,
@@ -1635,7 +1635,7 @@
       "Il fori di Tebesio"
    ],
    "correctAnswer": "Il fori di Luschka e Magendie",
-   "subject": "ANATOMY"
+   "subject": "CERVELLETTO"
 },
  {
    "id": 118,
@@ -1648,8 +1648,8 @@
       "L'acquedotto pontino",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "L’acquedotto mesencefalico",
-   "subject": "ANATOMY"
+   "correctAnswer": "L'acquedotto mesencefalico",
+   "subject": "TRONCO_ENCEFALICO"
 },
  {
    "id": 119,
@@ -1663,7 +1663,7 @@
       "Tutte le precedenti risposte sono errate"
    ],
    "correctAnswer": "Dalla tela corioidea",
-   "subject": "ANATOMY"
+   "subject": "TRONCO_ENCEFALICO"
 },
  {
    "id": 120,
@@ -1676,8 +1676,8 @@
       "È innervato dal nervo ricorrente destro",
       "È innervato dal nervo ricorrente sinistro"
    ],
-   "correctAnswer": "Unisce bronco sinistro ed esofago nel punto in\ncui si incrociano",
-   "subject": "ANATOMY"
+   "correctAnswer": "Unisce bronco sinistro ed esofago nel punto in cui si incrociano",
+   "subject": "ESOFAGO"
 },
  {
    "id": 121,
@@ -1690,8 +1690,8 @@
       "Una muscolaris mucosae con fascetti circolari",
       "Tutte le precedenti sono esatte"
    ],
-   "correctAnswer": "Un epitelio pavimentoso stratificato non\ncornificato e da una lamina propria di\nconnettivo denso",
-   "subject": "ANATOMY"
+   "correctAnswer": "Un epitelio pavimentoso stratificato non cornificato e da una lamina propria di connettivo denso",
+   "subject": "ESOFAGO"
 },
  {
    "id": 122,
@@ -1705,7 +1705,7 @@
       "Va dal solco trasverso al margine mediale della ultima porzione del duodeno"
    ],
    "correctAnswer": "Rappresenta la pars tensa del piccolo epiploon",
-   "subject": "ANATOMY"
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 123,
@@ -1718,8 +1718,8 @@
       "Un margine postero inferiore che presenta a sinistra della vena cava un'impronta del rene sinistro",
       "Un margine anteroinferiore che delimita la parete anteriore del vestibolo della retro cavità degli epiploon"
    ],
-   "correctAnswer": "Una faccia diaframmatica o anterosuperiore\nconvessa",
-   "subject": "ANATOMY"
+   "correctAnswer": "Una faccia diaframmatica o anterosuperiore convessa",
+   "subject": "FEGATO"
 },
  {
    "id": 124,
@@ -1732,8 +1732,8 @@
       "Presenta un foglietto inferiore che circonda la vena cava inferiore",
       "Contiene il condotto di Aranzio che permette l'accesso alla retro cavità degli epiploon"
    ],
-   "correctAnswer": "Presenta un foglietto inferiore che circonda la\nvena cava inferiore",
-   "subject": "ANATOMY"
+   "correctAnswer": "Presenta un foglietto inferiore che circonda la vena cava inferiore",
+   "subject": "FEGATO"
 },
  {
    "id": 125,
@@ -1746,8 +1746,8 @@
       "Con la lamina posteriore riveste tutto il fondo gastrico",
       "È costituito da due lamine divergenti a livello della piccola curvatura"
    ],
-   "correctAnswer": "Manca in corrispondenza di cardia, faccia\nposteriore dell’esofago e parte del fondo dello\nstomaco",
-   "subject": "ANATOMY"
+   "correctAnswer": "Manca in corrispondenza di cardia, faccia posteriore dell'esofago e parte del fondo dello stomaco",
+   "subject": "STOMACO"
 },
  {
    "id": 126,
@@ -1760,8 +1760,8 @@
       "A destra con il cieco, a sinistra con il colon iliaco",
       "Con il processo uncinato del pancreas"
    ],
-   "correctAnswer": "A destra con il cieco, a sinistra con il colon\niliaco",
-   "subject": "ANATOMY"
+   "correctAnswer": "A destra con il cieco, a sinistra con il colon iliaco",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 127,
@@ -1774,8 +1774,8 @@
       "Sono poste al davanti del pilastro glosso palatino",
       "Sono rilievi tondeggianti detti anche mammelloni"
    ],
-   "correctAnswer": "Sono in numero di 7-11 al davanti del solco\nterminale",
-   "subject": "ANATOMY"
+   "correctAnswer": "Sono in numero di 7-11 al davanti del solco terminale",
+   "subject": "CAVO_ORALE"
 },
  {
    "id": 128,
@@ -1788,8 +1788,8 @@
       "Posteriormente ha rapporto con la vena azigos e con il dotto toracico",
       "Corrisponde alla faccia posteriore del pericardio"
    ],
-   "correctAnswer": "Corrisponde anteriormente alla parte\nmembranosa della trachea",
-   "subject": "ANATOMY"
+   "correctAnswer": "Corrisponde anteriormente alla parte membranosa della trachea",
+   "subject": "ESOFAGO"
 },
  {
    "id": 129,
@@ -1802,8 +1802,8 @@
       "A destra, lateralmente, ha rapporto con l'emiazigos e forma la parete laterale del seno costo diaframmatico",
       "Ha rapporto anteriormente con il n. vago che innerva solo la porzione cervicale"
    ],
-   "correctAnswer": "Si divide in un tratto superiore e uno inferiore\nall’incrocio dell’esofago col bronco sinistro",
-   "subject": "ANATOMY"
+   "correctAnswer": "Si divide in un tratto superiore e uno inferiore all'incrocio dell'esofago col bronco sinistro",
+   "subject": "ESOFAGO"
 },
  {
    "id": 130,
@@ -1816,8 +1816,8 @@
       "Presentano un margine anteriore connesso al legamento largo tramite il mesovario",
       "Presentano un polo superiore connesso all'utero"
    ],
-   "correctAnswer": "Presentano un margine anteriore connesso al\nlegamento largo tramite il mesovario",
-   "subject": "ANATOMY"
+   "correctAnswer": "Presentano un margine anteriore connesso al legamento largo tramite il mesovario",
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 131,
@@ -1830,8 +1830,8 @@
       "Fa seguito alla porzione infundibolare",
       "Fa seguito alla porzione infundibolare"
    ],
-   "correctAnswer": "Ha rapporto con il colon iliaco sbocca nella\ncavità uterina con l’ostio uterino",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto con il colon iliaco sbocca nella cavità uterina con l'ostio uterino",
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 132,
@@ -1844,8 +1844,8 @@
       "Perché corrispondono a zone di parenchima formatesi come strutture indipendenti",
       "Perché uno serve per le isole di Langerhans"
    ],
-   "correctAnswer": "Perché corrispondono a zone di parenchima\nformatesi come strutture indipendenti",
-   "subject": "ANATOMY"
+   "correctAnswer": "Perché corrispondono a zone di parenchima formatesi come strutture indipendenti",
+   "subject": "PANCREAS"
 },
  {
    "id": 133,
@@ -1859,7 +1859,7 @@
       "Ricco di cellule muscolari"
    ],
    "correctAnswer": "Fibroso",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 134,
@@ -1873,7 +1873,7 @@
       "Miscelare la bile col succo pancreatico"
    ],
    "correctAnswer": "Contenere e concentrare la bile",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 135,
@@ -1887,7 +1887,7 @@
       "Non c'è alcun cambiamento nella struttura microscopica"
    ],
    "correctAnswer": "Compare la muscolaris mucosae",
-   "subject": "ANATOMY"
+   "subject": "ESOFAGO"
 },
  {
    "id": 136,
@@ -1900,8 +1900,8 @@
       "Nel testicolo",
       "Nella porzione distale delle tuba"
    ],
-   "correctAnswer": "Nella corticale dell’ovaio",
-   "subject": "ANATOMY"
+   "correctAnswer": "Nella corticale dell'ovaio",
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 137,
@@ -1914,8 +1914,8 @@
       "Sulla superficie dell'ovaio",
       "Nella tuba"
    ],
-   "correctAnswer": "Sulla superficie dell’ovaio",
-   "subject": "ANATOMY"
+   "correctAnswer": "Sulla superficie dell'ovaio",
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 138,
@@ -1929,7 +1929,7 @@
       "È impermeabile"
    ],
    "correctAnswer": "È bi stratificata",
-   "subject": "ANATOMY"
+   "subject": "VESCICA"
 },
  {
    "id": 139,
@@ -1943,7 +1943,7 @@
       "Sono ricche di glicogeno"
    ],
    "correctAnswer": "Sono ricche di mitocondri",
-   "subject": "ANATOMY"
+   "subject": "TIROIDE"
 },
  {
    "id": 140,
@@ -1957,7 +1957,7 @@
       "Sensitive epicritiche"
    ],
    "correctAnswer": "Ortosimpatiche pregangliari",
-   "subject": "ANATOMY"
+   "subject": "SURRENE"
 },
  {
    "id": 141,
@@ -1970,8 +1970,8 @@
       "L'epitelio è cilindrico",
       "Non c'è lamina basale"
    ],
-   "correctAnswer": "Il foglietto parietale si continua col tubulo\ncontorto prossimale",
-   "subject": "ANATOMY"
+   "correctAnswer": "Il foglietto parietale si continua col tubulo contorto prossimale",
+   "subject": "RENI"
 },
  {
    "id": 142,
@@ -1985,7 +1985,7 @@
       "Con i vasi retti"
    ],
    "correctAnswer": "Coi capillari peritubulari",
-   "subject": "ANATOMY"
+   "subject": "RENI"
 },
  {
    "id": 143,
@@ -1999,7 +1999,7 @@
       "Presentano i cristalli di Reinke"
    ],
    "correctAnswer": "Presentano giunzioni serrate para basali",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_MASC"
 },
  {
    "id": 144,
@@ -2013,7 +2013,7 @@
       "Nella sottomucosa del colon trasverso"
    ],
    "correctAnswer": "Nella sottomucosa del bulbo duodenale",
-   "subject": "ANATOMY"
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 145,
@@ -2027,7 +2027,7 @@
       "Glicogeno"
    ],
    "correctAnswer": "Fibre sensitive",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 146,
@@ -2041,7 +2041,7 @@
       "I capillari peritubulari"
    ],
    "correctAnswer": "Una vena centro lobulare",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 147,
@@ -2055,7 +2055,7 @@
       "Fibrinogeno"
    ],
    "correctAnswer": "Somatostatina",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 148,
@@ -2068,8 +2068,8 @@
       "Contiene i vasi gastrici brevi",
       "È percorso dall'arteria gastroepiploica destra"
    ],
-   "correctAnswer": "Costituisce con l’epatoduodenale il piccolo\nomento",
-   "subject": "ANATOMY"
+   "correctAnswer": "Costituisce con l'epatoduodenale il piccolo omento",
+   "subject": "FEGATO"
 },
  {
    "id": 149,
@@ -2082,8 +2082,8 @@
       "Le ghiandole principali si aprono nei fondi delle fossette gastriche",
       "Le cellule adelomorfe secernono renina"
    ],
-   "correctAnswer": "Le ghiandole principali si aprono nei fondi\ndelle fossette gastriche",
-   "subject": "ANATOMY"
+   "correctAnswer": "Le ghiandole principali si aprono nei fondi delle fossette gastriche",
+   "subject": "STOMACO"
 },
  {
    "id": 150,
@@ -2097,7 +2097,7 @@
       "Secernono il fattore intrinseco"
    ],
    "correctAnswer": "Sono tubulari composte",
-   "subject": "ANATOMY"
+   "subject": "STOMACO"
 },
  {
    "id": 151,
@@ -2110,8 +2110,8 @@
       "Continua con il margine superiore della 3^ porzione del duodeno",
       "Si inflesse in alto a formare la piega angolare posta tra piloro e antro pilorico"
    ],
-   "correctAnswer": "Si estende dal cardia al piloro e ha rapporto\ncon la flessura sinistra del colon e il colon\ntrasverso",
-   "subject": "ANATOMY"
+   "correctAnswer": "Si estende dal cardia al piloro e ha rapporto con la flessura sinistra del colon e il colon trasverso",
+   "subject": "STOMACO"
 },
  {
    "id": 152,
@@ -2124,8 +2124,8 @@
       "È coperta dal lobo destro del fegato che su di essa si modella",
       "Tutte le precedenti sono esatte"
    ],
-   "correctAnswer": "Con la sua concavità abbraccia aorta, plesso\nceliaco, colonna vertebrale",
-   "subject": "ANATOMY"
+   "correctAnswer": "Con la sua concavità abbraccia aorta, plesso celiaco, colonna vertebrale",
+   "subject": "STOMACO"
 },
  {
    "id": 153,
@@ -2138,8 +2138,8 @@
       "L'innervazione sensitiva della fascia parotidea è data dal nervo grande auricolare",
       "Il dotto di Warthon nelle sottolinguali raggiunge una lunghezza di 4-5 cm"
    ],
-   "correctAnswer": "L’innervazione sensitiva della fascia parotidea\nè data dal nervo grande auricolare",
-   "subject": "ANATOMY"
+   "correctAnswer": "L'innervazione sensitiva della fascia parotidea è data dal nervo grande auricolare",
+   "subject": "CAVO_ORALE"
 },
  {
    "id": 154,
@@ -2152,8 +2152,8 @@
       "Le appendici epiploiche sono dipendenze della sierosa",
       "La tonaca muscolare contiene ghiandole mucipare"
    ],
-   "correctAnswer": "Le appendici epiploiche sono dipendenze\ndella sierosa",
-   "subject": "ANATOMY"
+   "correctAnswer": "Le appendici epiploiche sono dipendenze della sierosa",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 155,
@@ -2166,8 +2166,8 @@
       "Presenta nel tratto iniziale il bulbo duodenale che ha rapporto posteriore con il dotto coledoco",
       "A livello del polo superiore del rene volge a sinistra per continuare nella flessura duodeno digiunale"
    ],
-   "correctAnswer": "Forma la flessura inferiore del duodeno in\nrapporto con il mesocolon inferiormente",
-   "subject": "ANATOMY"
+   "correctAnswer": "Forma la flessura inferiore del duodeno in rapporto con il mesocolon inferiormente",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 156,
@@ -2180,8 +2180,8 @@
       "Piega a sinistra per continuare con la parte ascendente",
       "Incrocia la vena cava superiore anteriormente e il mesocolon trasverso posteriormente"
    ],
-   "correctAnswer": "È diretta indietro, in alto, a destra ed ha\nrapporto posteriore con la vena porta",
-   "subject": "ANATOMY"
+   "correctAnswer": "E diretta indietro, in alto, a destra ed ha rapporto posteriore con la vena porta",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 157,
@@ -2194,8 +2194,8 @@
       "Ricevono anastomosi dal nervo oculomotore comune",
       "Ricevono anastomosi dal nervo oftalmico"
    ],
-   "correctAnswer": "Sono formati da fibre ottiche temporali\nomolaterali e fibre nasali controlaterali",
-   "subject": "ANATOMY"
+   "correctAnswer": "Sono formati da fibre ottiche temporali omolaterali e fibre nasali controlaterali",
+   "subject": "VISTA"
 },
  {
    "id": 158,
@@ -2204,12 +2204,12 @@
    "questionAnswers": [
       "È rivestito da una sottile mucosa fornita di ghiandole sebacee",
       "È in rapporto posteriormente con il muscolo buccinatore",
-      "E un condotto la cui parete inferiore è più lunga di quella superiore",
+      "È un condotto la cui parete inferiore è più lunga di quella superiore",
       "Ha uno scheletro osseo in tutta la sua estensione",
       "È in rapporto medialmente con la base della chiocciola"
    ],
-   "correctAnswer": "È un condotto la cui parete inferiore è più\nlunga di quella superiore",
-   "subject": "ANATOMY"
+   "correctAnswer": "È un condotto la cui parete inferiore è più lunga di quella superiore",
+   "subject": "UDITO"
 },
  {
    "id": 159,
@@ -2222,8 +2222,8 @@
       "Il suo ostio timpanico si trova nella parete anteriore del cavo timpanico",
       "E rivestita da epitelio pavimentoso stratificato"
    ],
-   "correctAnswer": "È rivestita da epitelio pavimentoso stratificato",
-   "subject": "ANATOMY"
+   "correctAnswer": "E rivestita da epitelio pavimentoso stratificato",
+   "subject": "UDITO"
 },
  {
    "id": 160,
@@ -2236,8 +2236,8 @@
       "Da creste ampollati",
       "Da creste ampollari avvolte da una cupola gelatinosa"
    ],
-   "correctAnswer": "Da cellule di sostegno ed elementi\nneurosensoriali cigliati",
-   "subject": "ANATOMY"
+   "correctAnswer": "Da cellule di sostegno ed elementi neurosensoriali cigliati",
+   "subject": "UDITO"
 },
  {
    "id": 161,
@@ -2251,7 +2251,7 @@
       "Meato acustico interno"
    ],
    "correctAnswer": "Fossa giugulare",
-   "subject": "ANATOMY"
+   "subject": "UDITO"
 },
  {
    "id": 162,
@@ -2265,7 +2265,7 @@
       "Non contiene vasi sanguigni"
    ],
    "correctAnswer": "Non contiene vasi sanguigni",
-   "subject": "ANATOMY"
+   "subject": "UDITO"
 },
  {
    "id": 163,
@@ -2278,8 +2278,8 @@
       "Terminano formando sinapsi con le cellule del locus ceruleus",
       "Terminano formando sinapsi con le cellule del tuber cinereum"
    ],
-   "correctAnswer": "Raggiungono i nuclei cocleari del tronco\nencefalico",
-   "subject": "ANATOMY"
+   "correctAnswer": "Raggiungono i nuclei cocleari del tronco encefalico",
+   "subject": "UDITO"
 },
  {
    "id": 164,
@@ -2293,7 +2293,7 @@
       "Il verme cerebellare"
    ],
    "correctAnswer": "Il corpo trapezoide",
-   "subject": "ANATOMY"
+   "subject": "UDITO"
 },
  {
    "id": 165,
@@ -2307,7 +2307,7 @@
       "Olivare inferiore"
    ],
    "correctAnswer": "Olivare inferiore",
-   "subject": "ANATOMY"
+   "subject": "UDITO"
 },
  {
    "id": 166,
@@ -2321,7 +2321,7 @@
       "Tubulare semplice"
    ],
    "correctAnswer": "Tubulo alveolare",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_MASC"
 },
  {
    "id": 167,
@@ -2335,7 +2335,7 @@
       "LH e progesterone"
    ],
    "correctAnswer": "Estrogeni e progesterone",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 168,
@@ -2349,7 +2349,7 @@
       "Fibrocellule muscolari liscie"
    ],
    "correctAnswer": "Vasi sanguigni",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_MASC"
 },
  {
    "id": 169,
@@ -2363,7 +2363,7 @@
       "Cellule a produzione steroidea"
    ],
    "correctAnswer": "Cellule a produzione steroidea",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_FEMM"
 },
  {
    "id": 170,
@@ -2377,7 +2377,7 @@
       "Fibra muscoide"
    ],
    "correctAnswer": "Fibra rampicante",
-   "subject": "ANATOMY"
+   "subject": "CERVELLETTO"
 },
  {
    "id": 171,
@@ -2390,8 +2390,8 @@
       "L'epitelio dei macrofollicoli è impegnato ad immettere calcitonina in circolo",
       "Si producono catecolamine"
    ],
-   "correctAnswer": "L’epitelio dei micro follicoli è impegnato ad\nimmettere ormoni in circolo",
-   "subject": "ANATOMY"
+   "correctAnswer": "L'epitelio dei micro follicoli è impegnato ad immettere ormoni in circolo",
+   "subject": "TIROIDE"
 },
  {
    "id": 172,
@@ -2405,7 +2405,7 @@
       "Strutture subcellulari"
    ],
    "correctAnswer": "Ghiandole esocrine",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_MASC"
 },
  {
    "id": 173,
@@ -2419,7 +2419,7 @@
       "Spermatozoi"
    ],
    "correctAnswer": "Enzimi",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_MASC"
 },
  {
    "id": 174,
@@ -2433,7 +2433,7 @@
       "Cubico"
    ],
    "correctAnswer": "Di transizione",
-   "subject": "ANATOMY"
+   "subject": "RENI"
 },
  {
    "id": 175,
@@ -2447,7 +2447,7 @@
       "Progesterone"
    ],
    "correctAnswer": "Cortisolo",
-   "subject": "ANATOMY"
+   "subject": "RENI"
 },
  {
    "id": 176,
@@ -2461,7 +2461,7 @@
       "Assenza di innervazione"
    ],
    "correctAnswer": "Superficie interna liscia",
-   "subject": "ANATOMY"
+   "subject": "VESCICA"
 },
  {
    "id": 177,
@@ -2475,7 +2475,7 @@
       "Del tubulo contorto distale"
    ],
    "correctAnswer": "Del tubulo contorto distale",
-   "subject": "ANATOMY"
+   "subject": "RENI"
 },
  {
    "id": 178,
@@ -2489,7 +2489,7 @@
       "Pancreas esocrino"
    ],
    "correctAnswer": "Neuroipofisi",
-   "subject": "ANATOMY"
+   "subject": "IPOFISI"
 },
  {
    "id": 179,
@@ -2503,7 +2503,7 @@
       "Ovaio"
    ],
    "correctAnswer": "Prostata",
-   "subject": "ANATOMY"
+   "subject": "APP_GEN_MASC"
 },
  {
    "id": 180,
@@ -2517,7 +2517,7 @@
       "Somatostatina"
    ],
    "correctAnswer": "Noradrenalina",
-   "subject": "ANATOMY"
+   "subject": "SURRENE"
 },
  {
    "id": 181,
@@ -2531,7 +2531,7 @@
       "Sulla mineralizzazione ossea"
    ],
    "correctAnswer": "Sul pancreas esocrino",
-   "subject": "ANATOMY"
+   "subject": "TIROIDE"
 },
  {
    "id": 182,
@@ -2545,7 +2545,7 @@
       "Retto"
    ],
    "correctAnswer": "Stomaco",
-   "subject": "ANATOMY"
+   "subject": "STOMACO"
 },
  {
    "id": 183,
@@ -2559,7 +2559,7 @@
       "Piloro"
    ],
    "correctAnswer": "Antro pilorico",
-   "subject": "ANATOMY"
+   "subject": "STOMACO"
 },
  {
    "id": 184,
@@ -2573,7 +2573,7 @@
       "Nel pancreas esocrino"
    ],
    "correctAnswer": "Nel pancreas esocrino",
-   "subject": "ANATOMY"
+   "subject": "PANCREAS"
 },
  {
    "id": 185,
@@ -2587,7 +2587,7 @@
       "Vasi linfatici"
    ],
    "correctAnswer": "Vena epatica",
-   "subject": "ANATOMY"
+   "subject": "FEGATO"
 },
  {
    "id": 186,
@@ -2600,8 +2600,8 @@
       "Dello spazio di Mall",
       "Della vena centro lobulare"
    ],
-   "correctAnswer": "Del polo vascolare dell’epatocita",
-   "subject": "ANATOMY"
+   "correctAnswer": "Del polo vascolare dell'epatocita",
+   "subject": "FEGATO"
 },
  {
    "id": 187,
@@ -2615,7 +2615,7 @@
       "Ileo"
    ],
    "correctAnswer": "Cavità buccale",
-   "subject": "ANATOMY"
+   "subject": "CAVO_ORALE"
 },
  {
    "id": 188,
@@ -2628,8 +2628,8 @@
       "La parete posteriore è provvista di rivestimento sieroso",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "La faccia laterale insieme alla parete\naddominale laterale delimita lo spazio\nparietocolico destro",
-   "subject": "ANATOMY"
+   "correctAnswer": "La faccia laterale insieme alla parete addominale laterale delimita lo spazio parietocolico destro",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 189,
@@ -2642,8 +2642,8 @@
       "Ha rapporto posteriormente con il margine convesso del rene destro",
       "Ha rapporto lateralmente con la parete addominale"
    ],
-   "correctAnswer": "Si estende dal collo della colecisti al polo\ninferiore del rene destro",
-   "subject": "ANATOMY"
+   "correctAnswer": "Si estende dal collo della colecisti al polo inferiore del rene destro",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 190,
@@ -2656,8 +2656,8 @@
       "È rivestito completamente da peritoneo",
       "È rivestito completamente da peritoneo nella sola porzione discendente"
    ],
-   "correctAnswer": "Riceve lo sbocco dei condotti escretori del\nfegato e del pancreas",
-   "subject": "ANATOMY"
+   "correctAnswer": "Riceve lo sbocco dei condotti escretori del fegato e del pancreas",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 191,
@@ -2670,8 +2670,8 @@
       "È delimitato in basso da una linea orizzontale tangente al margine inferiore della 9^ cartilagine costale",
       "È situato nell'epigastrio e risulta accessibile alle palpazioni"
    ],
-   "correctAnswer": "È delimitato inferiormente dal margine delle\ncartilagini costali, dal processo xifoideo alla\n9^ costa",
-   "subject": "ANATOMY"
+   "correctAnswer": "E delimitato inferiormente dal margine delle cartilagini costali, dal processo xifoideo alla 9^ costa",
+   "subject": "STOMACO"
 },
  {
    "id": 192,
@@ -2684,8 +2684,8 @@
       "Ha rapporto con il muscolo trasverso dell'addome e i pilastri mediali del diaframma",
       "Ha rapporto con la milza e il pancreas"
    ],
-   "correctAnswer": "Ha rapporto con la flessura sinistra del colon e\nil colon trasverso",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto con la flessura sinistra del colon e il colon trasverso",
+   "subject": "STOMACO"
 },
  {
    "id": 193,
@@ -2698,8 +2698,8 @@
       "A livello della cresta iliaca sinistra prosegue nel colon pelvico",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Con la sua faccia mediale delimita lo spazio\nmesenterio colico sinistro",
-   "subject": "ANATOMY"
+   "correctAnswer": "Con la sua faccia mediale delimita lo spazio mesenterio colico sinistro",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 194,
@@ -2712,8 +2712,8 @@
       "Ha rapporto in basso con il dotto coledoco",
       "Si estende al di sotto del lobo quadrato del fegato, dal solco pilorico al collo della colecisti"
    ],
-   "correctAnswer": "Si estende al di sotto del lobo quadrato del\nfegato, dal solco pilorico al collo della\ncolecisti",
-   "subject": "ANATOMY"
+   "correctAnswer": "Si estende al di sotto del lobo quadrato del fegato, dal solco pilorico al collo della colecisti",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 195,
@@ -2726,8 +2726,8 @@
       "Ha rapporto inferiormente con il mesocolon trasverso",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Ha rapporto in avanti e superiormente con i\nvasi mesenterici superiori",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto in avanti e superiormente con vasi mesenterici superiori",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 196,
@@ -2740,8 +2740,8 @@
       "È posta tra il fondo e il corpo gastrico",
       "E posta tra la piccola curvatura e l'antro pilorico"
    ],
-   "correctAnswer": "È posta tra la piccola curvatura e l’antro\npilorico",
-   "subject": "ANATOMY"
+   "correctAnswer": "E posta tra la piccola curvatura e l'antro pilorico",
+   "subject": "STOMACO"
 },
  {
    "id": 197,
@@ -2754,8 +2754,8 @@
       "Ha rapporto con la milza, la ghiandola surrenale, mesocolon, plesso celiaco, colonna vertebrale",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Ha rapporto anche con il pancreas, il\nmesocolon e il colon trasverso",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto anche con il pancreas, il mesocolon e il colon trasverso",
+   "subject": "STOMACO"
 },
  {
    "id": 198,
@@ -2768,8 +2768,8 @@
       "Si presenta come un condotto appiattito dal dietro in avanti",
       "Decorre dalla base cranica fino ad un livello corrispondente alla 6^ vertebra cervicale"
    ],
-   "correctAnswer": "Decorre dalla base cranica fino ad un livello\ncorrispondente alla 6^ vertebra cervicale",
-   "subject": "ANATOMY"
+   "correctAnswer": "Decorre dalla base cranica fino ad un livello corrispondente alla 6^ vertebra cervicale",
+   "subject": "FARINGE"
 },
  {
    "id": 199,
@@ -2782,8 +2782,8 @@
       "Posteriormente con il tronco comune posteriore dei nervi vaghi",
       "Anteriormente con la parte iniziale del bronco sinistro, il nervo ricorrente sinistro e la parte membranosa della trachea"
    ],
-   "correctAnswer": "Anteriormente con la parte iniziale del bronco\nsinistro, il nervo ricorrente sinistro e la parte\nmembranosa della trachea",
-   "subject": "ANATOMY"
+   "correctAnswer": "Anteriormente con la parte iniziale del bronco sinistro, il nervo ricorrente sinistro e la parte membranosa della trachea",
+   "subject": "ESOFAGO"
 },
  {
    "id": 200,
@@ -2796,8 +2796,8 @@
       "Ha rapporto con l'aorta, l'arteria celiaca, il plesso celiaco e la milza",
       "Ha rapporto tramite il mesocolon trasverso con la porzione ascendente del duodeno e con la flessura duodeno digiunale"
    ],
-   "correctAnswer": "Ha rapporto tramite il mesocolon trasverso\ncon la porzione ascendente del duodeno e con\nla flessura duodeno digiunale",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto tramite il mesocolon trasverso con la porzione ascendente del duodeno e con la flessura duodeno digiunale",
+   "subject": "STOMACO"
 },
  {
    "id": 201,
@@ -2810,8 +2810,8 @@
       "Ha rapporto posteriormente con l'arteria gastroepiploica sinistra",
       "Decorre obliquamente in alto e a destra dell'aorta"
    ],
-   "correctAnswer": "Ha rapporto lateralmente con l’arteria colica\nsinistra",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto lateralmente con l'arteria colica sinistra",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 202,
@@ -2825,7 +2825,7 @@
       "A sinistra con il fondo dello stomaco"
    ],
    "correctAnswer": "A sinistra con il fondo dello stomaco",
-   "subject": "ANATOMY"
+   "subject": "ESOFAGO"
 },
  {
    "id": 203,
@@ -2838,8 +2838,8 @@
       "È in rapporto in basso con il coledoco",
       "E in rapporto in avanti e in alto con il lobo quadrato del fegato e il collo della colecisti"
    ],
-   "correctAnswer": "È in rapporto in avanti e in alto con il lobo\nquadrato del fegato e il collo della colecisti",
-   "subject": "ANATOMY"
+   "correctAnswer": "E in rapporto in avanti e in alto con il lobo quadrato del fegato e il collo della colecisti",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 204,
@@ -2852,8 +2852,8 @@
       "Ha rapporto anteriormente con le anse del tenue",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Decorre dalla cresta iliaca destra al margine\nmediale del muscolo grande psoas",
-   "subject": "ANATOMY"
+   "correctAnswer": "Decorre dalla cresta iliaca destra al margine mediale del muscolo grande psoas",
+   "subject": "INTESTINO_CRASSO"
 },
  {
    "id": 205,
@@ -2866,8 +2866,8 @@
       "Localizzate nell'asse del villo",
       "Localizzate solo nella prima porzione dell'organo"
    ],
-   "correctAnswer": "Localizzate nella sottomucosa con produzione\nmucosa per il passaggio delle sostante nel\nlume dell’organo",
-   "subject": "ANATOMY"
+   "correctAnswer": "Localizzate nella sottomucosa con produzione mucosa per il passaggio delle sostante nel lume dell'organo",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 206,
@@ -2880,8 +2880,8 @@
       "Nell'intestino",
       "Fra gli acini pancreatici"
    ],
-   "correctAnswer": "Nell’intestino",
-   "subject": "ANATOMY"
+   "correctAnswer": "Nell'intestino",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 207,
@@ -2895,7 +2895,7 @@
       "Nella midollare del rene"
    ],
    "correctAnswer": "Al polo vascolare del nefrone",
-   "subject": "ANATOMY"
+   "subject": "RENI"
 },
  {
    "id": 208,
@@ -2908,8 +2908,8 @@
       "Consente all'esofago di sporgere all'interno della trachea",
       "Ancora trachea ed esofago alla colonna vertebrale"
    ],
-   "correctAnswer": "Media i rapporti con l’esofago",
-   "subject": "ANATOMY"
+   "correctAnswer": "Media i rapporti con l'esofago",
+   "subject": "ESOFAGO"
 },
  {
    "id": 209,
@@ -2922,8 +2922,8 @@
       "Corrisponde inferiormente ad un piano passante per la 6^ vertebra cervicale",
       "Ha come limite inferiore la faccia superiore del palato molle"
    ],
-   "correctAnswer": "Ha come limite inferiore la faccia superiore\ndel palato molle",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha come limite inferiore la faccia superiore del palato molle",
+   "subject": "FARINGE"
 },
  {
    "id": 210,
@@ -2936,8 +2936,8 @@
       "Anteriormente con i linfonodi di biforcazione e la faccia posteriore del pericardio",
       "Tutte le precedenti sono esatte"
    ],
-   "correctAnswer": "Anteriormente con i linfonodi di biforcazione\ne la faccia posteriore del pericardio",
-   "subject": "ANATOMY"
+   "correctAnswer": "Anteriormente con i linfonodi di biforcazione e la faccia posteriore del pericardio",
+   "subject": "ESOFAGO"
 },
  {
    "id": 211,
@@ -2950,8 +2950,8 @@
       "Posteriormente ha rapporto con la testa del pancreas",
       "Lateralmente a sinistra ha rapporto col plesso celiaco"
    ],
-   "correctAnswer": "Posteriormente ha rapporto con la testa del\npancreas",
-   "subject": "ANATOMY"
+   "correctAnswer": "Posteriormente ha rapporto con la testa del pancreas",
+   "subject": "STOMACO"
 },
  {
    "id": 212,
@@ -2964,8 +2964,8 @@
       "Anteriormente è in rapporto con la testa del pancreas",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Ha rapporto con la borsa omentale attraverso\nil mesocolon trasverso",
-   "subject": "ANATOMY"
+   "correctAnswer": "Ha rapporto con la borsa omentale attraverso il mesocolon trasverso",
+   "subject": "INTESTINO_TENUE"
 },
  {
    "id": 213,
@@ -2979,7 +2979,7 @@
       "Il tubercolo cuneato"
    ],
    "correctAnswer": "La callotta, il piede e la sostanza nera",
-   "subject": "ANATOMY"
+   "subject": "MESENCEFALO"
 },
  {
    "id": 214,
@@ -2993,7 +2993,7 @@
       "Lobo occipitale del telencefalo"
    ],
    "correctAnswer": "Tubercolo quadri gemello superiore",
-   "subject": "ANATOMY"
+   "subject": "MESENCEFALO"
 },
  {
    "id": 215,
@@ -3007,7 +3007,7 @@
       "Nel fondo del meato acustico esterno"
    ],
    "correctAnswer": "Nel fondo della fossa interpeduncolare",
-   "subject": "ANATOMY"
+   "subject": "MESENCEFALO"
 },
  {
    "id": 216,
@@ -3020,8 +3020,8 @@
       "Il lobo anteriore dal lobo posteriore",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Il lobo flocculo-nodulare dal resto del\ncervelletto",
-   "subject": "ANATOMY"
+   "correctAnswer": "Il lobo flocculo-nodulare dal resto del cervelletto",
+   "subject": "CERVELLETTO"
 },
  {
    "id": 217,
@@ -3035,7 +3035,7 @@
       "Sono neuroni riverberanti"
    ],
    "correctAnswer": "Forniscono le fibre parallele",
-   "subject": "ANATOMY"
+   "subject": "CERVELLETTO"
 },
  {
    "id": 218,
@@ -3049,7 +3049,7 @@
       "Della linea mediana"
    ],
    "correctAnswer": "Mediale",
-   "subject": "ANATOMY"
+   "subject": "TELENCEFALO"
 },
  {
    "id": 219,
@@ -3063,7 +3063,7 @@
       "Lemnisco mediale + vie trigeminali"
    ],
    "correctAnswer": "Vie trigeminali + gustative",
-   "subject": "ANATOMY"
+   "subject": "TALAMO"
 },
  {
    "id": 220,
@@ -3077,7 +3077,7 @@
       "L'acquedotto di Silvio"
    ],
    "correctAnswer": "Colonna del fornice",
-   "subject": "ANATOMY"
+   "subject": "TALAMO"
 },
  {
    "id": 221,
@@ -3090,8 +3090,8 @@
       "Le diramazioni dell'arteria renale",
       "Nefroni iuxtamidollari"
    ],
-   "correctAnswer": "Le diramazioni dell’arteria renale",
-   "subject": "ANATOMY"
+   "correctAnswer": "Le diramazioni dell'arteria renale",
+   "subject": "RENI"
 },
  {
    "id": 222,
@@ -3105,6 +3105,468 @@
       "Presentano un apparato di Golgi\nparticolarmente evidente"
    ],
    "correctAnswer": "Contengono granuli di renina",
-   "subject": "ANATOMY"
+   "subject": "RENI"
+},
+ {
+   "id": 223,
+   "examId": "au2",
+   "questionText": "La porzione ampollare delle tube uterine",
+   "questionAnswers": [
+      "Presenta l’ostio addominale",
+      "Ha un decorso rettilineo",
+      "Nell’ultimo tratto decorre lungo il margine\ninferiore del legamento largo",
+      "Forma all’inizio un’ansa aperta in basso e\nmedialmente",
+      "È sprovvista in peritoneo"
+   ],
+   "correctAnswer": "Forma all’inizio un’ansa aperta in basso e\nmedialmente",
+   "subject": "APP_GEN_FEMM"
+},
+ {
+   "id": 224,
+   "examId": "au2",
+   "questionText": "L’utero",
+   "questionAnswers": [
+      "È situato in prossimità della 2^-3^ vertebra\ncoccigea",
+      "Presenta un corpo fisso ad un collo mobile",
+      "Presenta una faccia posteriore concava ed una\nanteriore convessa",
+      "È sprovvisto di peritoneo in corrispondenza\ndel fondo",
+      "Presenta una faccia posteriore in rapporto con\nla faccia anteriore del retto"
+   ],
+   "correctAnswer": "Presenta una faccia posteriore in rapporto con\nla faccia anteriore del retto",
+   "subject": "APP_GEN_FEMM"
+},
+ {
+   "id": 225,
+   "examId": "au2",
+   "questionText": "Il legamento largo dell’utero",
+   "questionAnswers": [
+      "È costituito dalle pagine peritoneali che hanno\nrivestito la faccia anteriore e posteriore\ndell’utero, unendosi lungo i margini laterali di\nquesto",
+      "Lateralmente all’utero forma, con la pagina\nanteriore, il pavimento pelvico",
+      "Con il foglietto anteriore ricopre il pavimento\npelvico e risale ai lati del retto sulla parete\npelvica posterolaterale",
+      "Da origine, con la pagina posteriore, all’ala\nfunicolare",
+      "Da origine all’ala ovarica che comprende il\nlegamento uterovarico nella porzione centrale"
+   ],
+   "correctAnswer": "È costituito dalle pagine peritoneali che hanno\nrivestito la faccia anteriore e posteriore\ndell’utero, unendosi lungo i margini laterali di\nquesto",
+   "subject": "APP_GEN_FEMM"
+},
+ {
+   "id": 226,
+   "examId": "au2",
+   "questionText": "Il legamento cardinale presenta",
+   "questionAnswers": [
+      "Una porzione laterale e una mediale separate\ndal punto in cui l’uretere incrocia l’arteria\nuterina",
+      "Inserzione sull’estremità superiore del\nlegamento utero sacrale",
+      "Una porzione laterale di connettivo fibroso",
+      "Una parete pelvica intralegamentosa con\ninserzione sulla parete anterolaterale della\npelvi",
+      "Una parte uterina che si inserisce sulla faccia\nintestinale del corpo dell’utero"
+   ],
+   "correctAnswer": "Una porzione laterale e una mediale separate\ndal punto in cui l’uretere incrocia l’arteria\nuterina",
+   "subject": "APP_GEN_FEMM"
+},
+ {
+   "id": 227,
+   "examId": "au2",
+   "questionText": "Il miometrio è costituito da",
+   "questionAnswers": [
+      "Uno strato esterno di fibre prevalentemente\n trasversali",
+      "Uno strato esterno costituito prevalentemente\n da fibre a decorso parallelo, plesso vascolo\n nervoso o emostatico",
+      "Uno strato sottomucoso fatto da fibre a\n decorso longitudinale che si dispongono\n intorno allo sbocco delle tube",
+      "Uno strato emostatico che determina\n emorragia dopo il secondamento",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "Uno strato sottomucoso fatto da fibre a\n decorso longitudinale che si dispongono\n intorno allo sbocco delle tube",
+   "subject": "APP_GEN_FEMM"
+},
+ {
+   "id": 228,
+   "examId": "au2",
+   "questionText": "Il canale deferente presenta",
+   "questionAnswers": [
+      "Rapporto con la parete anteriore della vescica\n tramite il trigono interseminale",
+      "Una parte testicolare addossata alla faccia\n posteriore della coda del corpo dell'epididimo",
+      "Una parte inguinale che si unisce al fascio\n vascolo-nervoso per formare il funicolo\n spermatico",
+      "Una parte funicolare con decorso obliquo\n lungo la borsa scrotale",
+      "Intimi rapporti con il margine mediale della\n parete anterolaterale del canale inguinale"
+   ],
+   "correctAnswer": "Una parte testicolare addossata alla faccia\n posteriore della coda del corpo dell'epididimo",
+   "subject": "APP_GEN_MASC"
+},
+ {
+   "id": 229,
+   "examId": "au2",
+   "questionText": "Nell'utero",
+   "questionAnswers": [
+      "Il legamento di Mackenrodt è distinto in una\n porzione mediale e una laterale",
+      "Il legamento di Mackenrodt presenta una\n porzione anteriore e una posteriore che\n incrocia superiormente l'arteria uterina",
+      "La porzione laterale del legamento cardinale è\n più robusta di quella mediale",
+      "La porzione mediale del legamento cardinale è\n costituita da connettivo lasso",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "Il legamento di Mackenrodt è distinto in una\n porzione mediale e una laterale",
+   "subject": "APP_GEN_FEMM"
+},
+ {
+   "id": 230,
+   "examId": "au2",
+   "questionText": "L'ipofisi",
+   "questionAnswers": [
+      "È posta nella sella turcica avvolta dalla pia\n madre che in alto chiude la fossa cranica",
+      "E accolta in una nicchia osteo-fibrosa formata\n dallo sfenoide e dalla dura madre",
+      "Con la sua faccia superiore costituisce il\n diaframma della sella che da passaggio al\n peduncolo ipofisario",
+      "Prende rapporto, inferiormente con la parete\n superiore della parete mediale del seno\n cavernoSO",
+      "Prende rapporto, anteriormente, con la parte\n antero-mediale della cavità nasale"
+   ],
+   "correctAnswer": "E accolta in una nicchia osteo-fibrosa formata\n dallo sfenoide e dalla dura madre",
+   "subject": "IPOFISI"
+},
+ {
+   "id": 231,
+   "examId": "au2",
+   "questionText": "La neuroipofisi",
+   "questionAnswers": [
+      "È innervata da fibre vasomotrici provenienti\n dal plesso carotideo",
+      "È costituita da fibre mieliniche di provenienza\n ipotalamica",
+      "E costituita da fibre mieliniche che formano il\n fascio ipotalamoneuroipofisario",
+      "È formata da nidi cellulari sostenuti da stroma\n reticolare",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "E costituita da fibre mieliniche che formano il\n fascio ipotalamoneuroipofisario",
+   "subject": "IPOFISI"
+},
+ {
+   "id": 232,
+   "examId": "au2",
+   "questionText": "La parte intermedia dell'adenoipofisi",
+   "questionAnswers": [
+      "É costituita da cellule che circondano cavità di\n tipo follicolare contenenti sostanza colloide",
+      "È costituita da cellule cubiche o cilindriche\n disposte in cordoni",
+      "È la porzione del lobo anteriore che si applica\n al peduncolo ipofisario",
+      "Produce TSH, LH, PRL che esercitano azione\n trofica sul corpo luteo",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "É costituita da cellule che circondano cavità di\n tipo follicolare contenenti sostanza colloide",
+   "subject": "IPOFISI"
+},
+ {
+   "id": 233,
+   "examId": "au2",
+   "questionText": "I corpi di Herring",
+   "questionAnswers": [
+      "Sono gomitoli di capillari di tipo sinusoidale",
+      "Sono granuli di neurosecreto colorabili con\n ematossilina cromica",
+      "Sono contenuti nella tasca di Rathke che\n formerà la vescicola ipofisaria",
+      "Sono contenuti nell'eminenza mediana",
+      "Sono masserelle di micropituiciti e\n fibropituiciti"
+   ],
+   "correctAnswer": "Sono granuli di neurosecreto colorabili con\n ematossilina cromica",
+   "subject": "IPOFISI"
+},
+ {
+   "id": 234,
+   "examId": "au2",
+   "questionText": "La zona glomerulare del surrene",
+   "questionAnswers": [
+      "Produce ormoni androgeni ed è estremamente\n sensibile all'azione dell'ACTH e GH",
+      "Produce glicocorticoidi che agiscono sul\n ricambio glucidico e protidico",
+      "Secerne ormoni steroidei che favoriscono il\n riassorbimento di ioni sodio e inibiscono\n quelli di ioni potassio a livello di tubuli renali",
+      "È formata da cordoni paralleli, circondati da\n capillari con decorso curvilineo",
+      "È formata da cordoni cellulari anastomizzati a\n rete"
+   ],
+   "correctAnswer": "Secerne ormoni steroidei che favoriscono il\n riassorbimento di ioni sodio e inibiscono\n quelli di ioni potassio a livello di tubuli renali",
+   "subject": "SURRENE"
+},
+ {
+   "id": 235,
+   "examId": "au2",
+   "questionText": "Nei tireociti",
+   "questionAnswers": [
+      "Le caratteristiche morfologiche non sono\n variabili",
+      "Il citoplasma presenta gocciole PAS-negative",
+      "In corrispondenza del polo apicale presentano\n numerose micro villosità",
+      "In corrispondenza del polo basale presentano\n numerose micro villosità",
+      "È possibile evidenziare un abbondante reticolo\n endoplasmatico granulare"
+   ],
+   "correctAnswer": "Il citoplasma presenta gocciole PAS-negative",
+   "subject": "TIROIDE"
+},
+ {
+   "id": 236,
+   "examId": "au2",
+   "questionText": "L'ipofisi presenta",
+   "questionAnswers": [
+      "Una faccia anteriore corrispondente alla parte\n inferiore del seno sfenoidale",
+      "Due facce laterali in rapporto con la parete\n inferiore del seno cavernoso",
+      "Una faccia inferiore in rapporto con il seno\n frontale",
+      "Una faccia superiore in rapporto con la facci\n inferiore dell'encefalo",
+      "Una faccia mediale in rapporto con il seno\n sfenoidale"
+   ],
+   "correctAnswer": "Una faccia superiore in rapporto con la facci\n inferiore dell'encefalo",
+   "subject": "IPOFISI"
+},
+ {
+   "id": 237,
+   "examId": "au2",
+   "questionText": "Nelle ghiandole surrenali",
+   "questionAnswers": [
+      "L'arteria surrenale superiore proviene\n dall'arteria frenica superiore",
+      "L'arteria surrenale media si distribuisce alla\n porzione apicale della ghiandola",
+      "La vena surrenale sinistra sbocca nella vena\n cava inferiore",
+      "Le arterie lunghe si capillarizzano nella\n midollare",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "Le arterie lunghe si capillarizzano nella\n midollare",
+   "subject": "SURRENE"
+},
+ {
+   "id": 238,
+   "examId": "au2",
+   "questionText": "La tiroide",
+   "questionAnswers": [
+      "È una ghiandola esocrina di tipo follicolare",
+      "E una ghiandola endocrina di tipo follicolare",
+      "È una ghiandola esocrina a vescicole chiuse",
+      "Presenta il parenchima costituito da\n formazioni vescicolari di uguali dimensioni",
+      "Presenta la parete formata da più strati di\n cellule"
+   ],
+   "correctAnswer": "E una ghiandola endocrina di tipo follicolare",
+   "subject": "TIROIDE"
+},
+ {
+   "id": 239,
+   "examId": "au2",
+   "questionText": "La faccia anteriore del rene sinistro",
+   "questionAnswers": [
+      "Ha rapporto in basso con il colon discendente",
+      "Ha rapporto in alto con la faccia\n posterolaterale della milza",
+      "E in rapporto tramite la borsa omentale con la\n parete posteriore dello stomaco",
+      "Ha rapporto in alto con la flessura duodeno\n digiunale",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "E in rapporto tramite la borsa omentale con la\n parete posteriore dello stomaco",
+   "subject": "RENI"
+},
+ {
+   "id": 240,
+   "examId": "au2",
+   "questionText": "Nel rene destro",
+   "questionAnswers": [
+      "Il polo inferiore dista 5 cm dalla cresta iliaca",
+      "Il margine laterale ha rapporto con il colon\n ascendente",
+      "La faccia anteriore ha rapporto in basso con i\n vasi lienali",
+      "La faccia posteriore contrae rapporti con i\n nervi ileo ipogastrico e ileoinguinale",
+      "La faccia posteriore ha rapporto in basso e\n medialmente con il muscolo quadrato dei\n lombi"
+   ],
+   "correctAnswer": "La faccia posteriore contrae rapporti con i\n nervi ileo ipogastrico e ileoinguinale",
+   "subject": "RENI"
+},
+ {
+   "id": 241,
+   "examId": "au2",
+   "questionText": "Nel rene",
+   "questionAnswers": [
+      "L'arteria renale si divide nelle arterie\n interlobari",
+      "Le arterie rette vere si portano fra i raggi\n midollari",
+      "Dalle arterie interlobali nascono le arterie rette\n vere",
+      "L'arteria renale in corrispondenza dell'ilo si\n divide in tre rami",
+      "Le arteriole efferenti si portano alla midollare\n come arterie rette spurie"
+   ],
+   "correctAnswer": "L'arteria renale si divide nelle arterie\n interlobari",
+   "subject": "RENI"
+},
+ {
+   "id": 242,
+   "examId": "au2",
+   "questionText": "L'uretere",
+   "questionAnswers": [
+      "Origina dalla pelvi renale e termina in\n corrispondenza dell'angolo posterolaterale del\n trigono vescicale",
+      "Decorre davanti al peritoneo parietale",
+      "Ha un decorso rettilineo",
+      "Si estende dalla regione lombare alla piccola\n pelvi",
+      "È suddiviso in una porzione pelvica ed in una\n porzione intramurale"
+   ],
+   "correctAnswer": "Si estende dalla regione lombare alla piccola\n pelvi",
+   "subject": "VESCICA"
+},
+ {
+   "id": 243,
+   "examId": "au2",
+   "questionText": "La porzione addominale dell'uretere destro",
+   "questionAnswers": [
+      "Descrive una curva a concavità anteromediale",
+      "Ha rapporto anteriormente e in basso con la\n porzione discendente del duodeno",
+      "Ha rapporto lateralmente con il margine\n mediale del muscolo psoas",
+      "Posteriormente è incrociato dai nervi\n genitofemorale e femorocutaneo",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "Posteriormente è incrociato dai nervi\n genitofemorale e femorocutaneo",
+   "subject": "VESCICA"
+},
+ {
+   "id": 244,
+   "examId": "au2",
+   "questionText": "Il corpo della vescica",
+   "questionAnswers": [
+      "Con la sua faccia posteriore ha rapporto con i\n muscoli otturatori interni",
+      "Con la sua faccia posteriore ha rapporto con il\n colon iliaco",
+      "In prossimità delle pareti laterali ha rapporto\n nel maschio con il legamento ombelicale\n medio",
+      "È ricoperto completamente da peritoneo",
+      "Posteriormente ha rapporto, nella donna, con\n la faccia anteriore dell'utero tramite il cavo\n utero vescicale"
+   ],
+   "correctAnswer": "Posteriormente ha rapporto, nella donna, con\n la faccia anteriore dell'utero tramite il cavo\n utero vescicale",
+   "subject": "VESCICA"
+},
+ {
+   "id": 245,
+   "examId": "au2",
+   "questionText": "Le ovaie",
+   "questionAnswers": [
+      "Presentano un polo superiore connesso\n all'utero",
+      "Presentano un margine anteriore libero",
+      "Presentano tre facce e due margini",
+      "Sono unite all'angolo infero laterale dell'utero\n dal legamento uterovarico",
+      "Sono disposte in maniera che la faccia laterale\n corrisponda ad una depressione della parete\n posterolaterale della piccola pelvi"
+   ],
+   "correctAnswer": "Sono disposte in maniera che la faccia laterale\n corrisponda ad una depressione della parete\n posterolaterale della piccola pelvi",
+   "subject": "APP_GEN_FEMM"
+},
+ {
+   "id": 246,
+   "examId": "au2",
+   "questionText": "La faccia anteriore del rene sinistro",
+   "questionAnswers": [
+      "È in rapporto lateralmente con il polo inferiore\n della milza",
+      "Ha rapporto medialmente con la testa del\n pancreas",
+      "E in rapporto in basso e lateralmente con la\n flessura sinistra del colon",
+      "Ha rapporto in basso e lateralmente con la\n porzione ascendente del duodeno",
+      "È in rapporto in basso e medialmente con il\n colon trasverso"
+   ],
+   "correctAnswer": "E in rapporto in basso e lateralmente con la\n flessura sinistra del colon",
+   "subject": "RENI"
+},
+ {
+   "id": 247,
+   "examId": "au2",
+   "questionText": "La faccia anteriore del rene",
+   "questionAnswers": [
+      "A destra ha rapporto inferiormente con il\n colon ascendente",
+      "E coperta dalla fascia prerenale",
+      "A sinistra ha rapporto in basso con la coda del\n pancreas",
+      "A destra è in rapporto, nel terzo superiore, col\n lobo destro del fegato",
+      "A sinistra e lateralmente ha rapporto col polo\n inferiore della milza"
+   ],
+   "correctAnswer": "E coperta dalla fascia prerenale",
+   "subject": "RENI"
+},
+ {
+   "id": 248,
+   "examId": "au2",
+   "questionText": "Nel rene destro",
+   "questionAnswers": [
+      "La faccia anteriore ha rapporto in alto col\n mesocolon trasverso",
+      "La faccia anteriore ha rapporto medialmente\n col tratto superiore del duodeno",
+      "Il polo inferiore dista 5 cm dalla cresta iliaca",
+      "La faccia posteriore è incrociata dalla 11^\n costa",
+      "La faccia anteriore è coperta dalla fascia\n prerenale alla quale aderisce il peritoneo\n parietale"
+   ],
+   "correctAnswer": "La faccia anteriore è coperta dalla fascia\n prerenale alla quale aderisce il peritoneo\n parietale",
+   "subject": "RENI"
+},
+ {
+   "id": 249,
+   "examId": "au2",
+   "questionText": "A livello del trigono vescicale",
+   "questionAnswers": [
+      "Manca uno strato muscolare",
+      "Non c'è epitelio di transizione",
+      "Manca il connettivo lasso della tonaca mucosa",
+      "La lamina propria contiene fibrocellule\n muscolari",
+      "Sono presenti ghiandole tubulari semplici"
+   ],
+   "correctAnswer": "Manca il connettivo lasso della tonaca mucosa",
+   "subject": "VESCICA"
+},
+ {
+   "id": 250,
+   "examId": "au2",
+   "questionText": "La tonaca muscolare della vescica va a costituire",
+   "questionAnswers": [
+      "Lo sfintere striato dell'uretra",
+      "Lo sfintere liscio dell'uretra",
+      "Numerosi sfinteri perivascolari",
+      "L'asse delle pieghe che caratterizzano la\n superficie interna",
+      "Le connessioni fra vescica e utero"
+   ],
+   "correctAnswer": "L'asse delle pieghe che caratterizzano la\n superficie interna",
+   "subject": "VESCICA"
+},
+ {
+   "id": 251,
+   "examId": "au2",
+   "questionText": "Il fondo dello stomaco :",
+   "questionAnswers": [
+      "Nell'espirazione raggiunge l'altezza della 4^\n costa dell'emiclaveare",
+      "Anteriormente ha rapporto con il lobo caudato\n del fegato",
+      "Posteriormente ha rapporto tramite il\n diaframma con il rene e il surrene di sinistra",
+      "Posteriormente ha rapporto tramite il\n diaframma con il dotto toracico",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "Tutte le precedenti sono errate",
+   "subject": "STOMACO"
+},
+ {
+   "id": 252,
+   "examId": "au2",
+   "questionText": "Il duodeno è irrorato",
+   "questionAnswers": [
+      "Dall'arteria mesenterica inferiore",
+      "Dall'arteria colica sinistra",
+      "Dalle arterie gastriche brevi",
+      "Dalle arterie pancreatico duodenali superiori e\n inferiori",
+      "Dalle arterie pancreatico lienale e\n gastroepiploica"
+   ],
+   "correctAnswer": "Dalle arterie pancreatico duodenali superiori e\n inferiori",
+   "subject": "INTESTINO_TENUE"
+},
+ {
+   "id": 253,
+   "examId": "au2",
+   "questionText": "La concavità dello stomaco è rivolta",
+   "questionAnswers": [
+      "In basso a destra abbracciando così l'arco\n aortico",
+      "Anteriormente a destra",
+      "A sinistra",
+      "In alto e posteriormente",
+      "In basso e posteriormente"
+   ],
+   "correctAnswer": "In alto e posteriormente",
+   "subject": "STOMACO"
+},
+ {
+   "id": 254,
+   "examId": "au2",
+   "questionText": "La parte midollare delle surrenali",
+   "questionAnswers": [
+      "È drenata da vene che si raccolgono\n perifericamente",
+      "Presenta cellule meno voluminose delle\n corticali",
+      "Presenta cellule di forma cilindrica quando tali\n cellule sono disposte a palizzata lungo il\n decorso dei capillari",
+      "Presenta cellule con un grosso nucleo ovoidale",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "Presenta cellule di forma cilindrica quando tali\n cellule sono disposte a palizzata lungo il\n decorso dei capillari",
+   "subject": "SURRENE"
+},
+ {
+   "id": 255,
+   "examId": "au2",
+   "questionText": "Nella midollare surrenale",
+   "questionAnswers": [
+      "La liberazione di catecolammine nel lume\n capillare avviene con meccanismo di\n pinocitosi inversa",
+      "L'attività secretoria delle cellule midollari è\n regolata dal sistema nervoso parasimpatico",
+      "Le cellule possono essere paragonate, per la\n loro origine embriologica, a cellule gangliari\n ortosimpatiche",
+      "I granuli contenenti noradrenalina sono dotati\n di bassa opacità agli elettroni rispetto a quelli\n contenenti adrenalina",
+      "Tutte le precedenti sono errate"
+   ],
+   "correctAnswer": "L'attività secretoria delle cellule midollari è\n regolata dal sistema nervoso parasimpatico",
+   "subject": "SURRENE"
 }
 ]
