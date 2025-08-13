@@ -1,9 +1,13 @@
 package com.example.mediquiz.domain.usecase
 
+import com.example.mediquiz.AppConstants // Added import
 import com.example.mediquiz.data.model.Question
 import com.example.mediquiz.data.model.QuestionSubject
 import com.example.mediquiz.data.repository.QuestionRepository
+import com.example.mediquiz.data.repository.UserPreferencesRepository // Added import
+import kotlinx.coroutines.flow.first // Added import
 import kotlinx.coroutines.flow.firstOrNull
+import kotlinx.coroutines.flow.map // Added import
 import javax.inject.Inject
 
 // Data class che definisce i dati da passare al ViewModel per il quiz
@@ -14,15 +18,20 @@ data class QuizSetupData(
 )
 
 class GetQuizDataUseCase @Inject constructor(
-    private val questionRepository: QuestionRepository
+    private val questionRepository: QuestionRepository,
+    private val userPreferencesRepository: UserPreferencesRepository
 ) {
     suspend operator fun invoke(
         examId: String,
         questionIdsString: String?,
         useAllSubjectsFlag: Boolean,
-        currentAppliedFilters: Set<QuestionSubject>,
-        questionCount: Int
+        currentAppliedFilters: Set<QuestionSubject>
     ): QuizSetupData {
+        // Recupera il numero di domande selezionato dall'utente
+        val actualQuestionCount = userPreferencesRepository.selectedCountFlow
+            .map { it ?: AppConstants.DEFAULT_QUIZ_COUNT }
+            .first() // Attende la prima emissione
+
         // 1. Verifica se è una revisione errori
         //  Verifica che gli ID siano validi e non siano vuoti.
         val reviewIds = questionIdsString?.split(',')
@@ -35,7 +44,7 @@ class GetQuizDataUseCase @Inject constructor(
         // 2. Recupera le domande
         val questionsToLoad: List<Question>
         if (isReviewMode) {
-            questionsToLoad = questionRepository.getQuestionsByIdsAndExamAndCount(examId, reviewIds,questionCount) // <<< MODIFIED to use getQuestionsByIdsAndExam
+            questionsToLoad = questionRepository.getQuestionsByIdsAndExamAndCount(examId, reviewIds, actualQuestionCount)
                 .firstOrNull() ?: emptyList()
         } else {
             // quiz normale
@@ -45,7 +54,7 @@ class GetQuizDataUseCase @Inject constructor(
                 currentAppliedFilters
             }
             questionsToLoad = questionRepository.getRandomQuestions(
-                count = questionCount,
+                count = actualQuestionCount,
                 examId = examId,
                 subjects = filtersToUse
             )

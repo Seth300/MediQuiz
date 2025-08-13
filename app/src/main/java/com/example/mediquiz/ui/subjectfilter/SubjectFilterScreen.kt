@@ -18,6 +18,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -40,9 +41,24 @@ fun SubjectFilterScreen(
     onExamSelected: (Exam) -> Unit,
     currentSelectedCount: Int,
     onCountChanged: (Int) -> Unit,
+    initialSelectedFilters: Set<QuestionSubject>,
     onApplyFilters: (Set<QuestionSubject>) -> Unit,
 ) {
     val uiState by subjectFilterViewModel.uiState.collectAsState()
+
+    // gestiscee il passaggio dei filtri da MainViewModel a SubjectFilterViewModel
+    LaunchedEffect(initialSelectedFilters, uiState.currentExam) {
+        // Garantisce che se il filtro iniziale non è settato si usa quello dell'esame scelto
+        if (uiState.currentExam != null) {
+            subjectFilterViewModel.setCurrentFilters(initialSelectedFilters)
+        }
+    }
+
+    // Osserva l'esame scelto da MainViewmodel
+    LaunchedEffect(selectedExam) {
+        // Serve per sicurezza, non dovrebbe essere chiamato
+        //TODO: Al momento abbiamo molti viewmodel che osservano le stesse variabili, operazioni ridondanti da eliminare
+    }
 
     Scaffold(
         topBar = {
@@ -80,9 +96,11 @@ fun SubjectFilterScreen(
                 Text("Loading subjects...")
             } else if (uiState.error != null) {
                 Text("Error: ${uiState.error}")
+            } else if (uiState.allSubjects.isEmpty() && uiState.currentExam != null) {
+                Text(stringResource(id = R.string.subject_filter_no_subjects_for_exam, uiState.currentExam?.let { stringResource(it.displayNameResId)} ?: "selected exam"))
             } else if (uiState.allSubjects.isEmpty()) {
-                Text(stringResource(id = R.string.subject_filter_no_subjects))
-            } else {
+                 Text(stringResource(id = R.string.subject_filter_no_subjects))
+            }else {
                 LazyColumn(
                     modifier = Modifier.weight(1f)
                 ) {
@@ -115,4 +133,3 @@ fun SubjectFilterScreen(
         }
     }
 }
-

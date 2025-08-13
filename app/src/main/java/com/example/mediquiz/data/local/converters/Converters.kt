@@ -8,13 +8,13 @@ object Converters {
     @TypeConverter
     @JvmStatic
     fun fromString(value: String?): List<String>? {
-        return value?.split(',')
+        return value?.split("\",\"")
     }
 
     @TypeConverter
     @JvmStatic
     fun fromList(list: List<String>?): String? {
-        return list?.joinToString(",")
+        return list?.joinToString("\",\"")
     }
 
     // Converters per QuestionSubject

@@ -71,8 +71,8 @@ class QuestionRepository(
                         subject = try {
                             QuestionSubject.valueOf(dto.subject.uppercase())
                         } catch (e: IllegalArgumentException) {
-                            Log.w(TAG, "Unknown subject from server: ${dto.subject}, defaulting to GENERAL_KNOWLEDGE")
-                            QuestionSubject.GENERAL_KNOWLEDGE
+                            Log.w(TAG, "Unknown subject from server: ${dto.subject}, defaulting to Not Assigned")
+                            QuestionSubject.NOT_ASSIGNED
                         }
                     )
                 }

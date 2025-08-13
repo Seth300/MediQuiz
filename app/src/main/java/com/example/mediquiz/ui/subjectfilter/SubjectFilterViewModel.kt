@@ -36,7 +36,8 @@ class SubjectFilterViewModel @Inject constructor(
     val uiState: StateFlow<SubjectFilterUiState> = _uiState.asStateFlow()
 
     private val TAG = "SubjectFilterViewModel"
-    val selectedExam: StateFlow<Exam> = userPreferencesRepository.selectedExamIdFlow
+
+    val selectedExamFlow: StateFlow<Exam> = userPreferencesRepository.selectedExamIdFlow
         .map { examIdString ->
             Exam.fromId(examIdString) ?: AppConstants.DEFAULT_EXAM
         }
@@ -49,33 +50,23 @@ class SubjectFilterViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
-            userPreferencesRepository.selectedExamIdFlow
-                .map { examIdString ->
-                    Exam.fromId(examIdString) ?: AppConstants.DEFAULT_EXAM
+            selectedExamFlow.collect { exam ->
+                Log.d(TAG, "Current exam selected: ${exam.id}, subjects: ${exam.subjects.joinToString { it.name }}")
+                _uiState.update {
+                    it.copy(
+                        currentExam = exam,
+                        allSubjects = exam.subjects,
+                        selectedSubjects = emptySet(),
+                        isLoading = false,
+                        error = null
+                    )
                 }
-                .stateIn(
-                    scope = viewModelScope,
-                    started = SharingStarted.WhileSubscribed(5000L),
-                    initialValue = AppConstants.DEFAULT_EXAM
-                )
-                .collect { exam ->
-                    Log.d(TAG, "Current exam selected: ${exam.id}, subjects: ${exam.subjects.joinToString { it.name }}")
-                    _uiState.update {
-                        it.copy(
-                            currentExam = exam,
-                            allSubjects = exam.subjects, // gli argomenti sono definiti nella classe Exam
-                            selectedSubjects = emptySet(), //azzera gli argomenti al cambiamento di esame
-                            isLoading = false,
-                            error = null
-                        )
-                    }
-                }
+            }
         }
     }
 
     fun toggleSubjectSelection(subject: QuestionSubject) {
         _uiState.update { currentState ->
-            // Verifica l'argomento sia tra quelli permessi
             if (currentState.currentExam?.subjects?.contains(subject) == true) {
                 val newSelectedSubjects = currentState.selectedSubjects.toMutableSet()
                 if (newSelectedSubjects.contains(subject)) {
@@ -96,11 +87,10 @@ class SubjectFilterViewModel @Inject constructor(
     }
 
     fun setCurrentFilters(currentFilters: Set<QuestionSubject>) {
-        //  Verifica che i filtri siano validi
         val validFilters = _uiState.value.currentExam?.subjects?.let { validSubjects ->
             currentFilters.filter { validSubjects.contains(it) }.toSet()
         } ?: emptySet()
-
+        Log.d(TAG, "setCurrentFilters - Initial: ${currentFilters.joinToString { it.name }}, Validated against ${uiState.value.currentExam?.id}: ${validFilters.joinToString { it.name }}")
         _uiState.update {
             it.copy(selectedSubjects = validFilters)
         }

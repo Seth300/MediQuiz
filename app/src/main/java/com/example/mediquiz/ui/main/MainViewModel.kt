@@ -1,6 +1,5 @@
 package com.example.mediquiz.ui.main
 
-// import com.example.myapplication.data.repository.StatisticsRepository // No longer needed directly
 import android.app.Application
 import android.util.Log
 import androidx.compose.runtime.mutableStateListOf
@@ -24,6 +23,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -42,32 +43,30 @@ class MainViewModel @Inject constructor(
 
     private val TAG = "MainViewModel"
 
-    // --- Exam Selection State ---
     val selectedCount: StateFlow<Int> = userPreferencesRepository.selectedCountFlow
-        .map {int  ->
-            int?: AppConstants.DEFAULT_QUIZ_COUNT
-        }
+        .map { it ?: AppConstants.DEFAULT_QUIZ_COUNT }
         .stateIn(
             scope = viewModelScope,
             started = SharingStarted.WhileSubscribed(5000L),
             initialValue = AppConstants.DEFAULT_QUIZ_COUNT
         )
 
-    fun updateSelectedCount(count:Int) {
+    fun updateSelectedCount(count: Int) {
         viewModelScope.launch {
             userPreferencesRepository.updateSelectedCount(count)
-            Log.d(TAG, "Selected count updated to: ${count} ")
+            Log.d(TAG, "Selected count updated to: $count ")
         }
     }
-        val selectedExam: StateFlow<Exam> = userPreferencesRepository.selectedExamIdFlow
-            .map { examIdString ->
-                Exam.fromId(examIdString) ?: AppConstants.DEFAULT_EXAM
-            }
-            .stateIn(
-                scope = viewModelScope,
-                started = SharingStarted.WhileSubscribed(5000L),
-                initialValue = AppConstants.DEFAULT_EXAM
-            )
+
+    val selectedExam: StateFlow<Exam> = userPreferencesRepository.selectedExamIdFlow
+        .map { examIdString ->
+            Exam.fromId(examIdString) ?: AppConstants.DEFAULT_EXAM
+        }
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000L),
+            initialValue = AppConstants.DEFAULT_EXAM
+        )
 
     fun updateSelectedExam(exam: Exam) {
         viewModelScope.launch {
@@ -76,7 +75,6 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    // Question e Quiz State
     private val _questionSet = MutableStateFlow<List<Question>>(emptyList())
     val questionSet: StateFlow<List<Question>> = _questionSet.asStateFlow()
 
@@ -91,12 +89,10 @@ class MainViewModel @Inject constructor(
 
     private var _selectedAnswers = mutableStateListOf<String?>()
 
-    // Review Quiz Mode
     private val _isReviewQuizMode = MutableStateFlow(false)
     val isReviewQuizMode: StateFlow<Boolean> = _isReviewQuizMode.asStateFlow()
     private var reviewQuestionIdsInternal: List<Int>? = null
 
-    // Database Sync State
     private val _isSyncing = MutableStateFlow(false)
     val isSyncing: StateFlow<Boolean> = _isSyncing.asStateFlow()
 
@@ -118,6 +114,29 @@ class MainViewModel @Inject constructor(
                     Log.e(TAG, "init: Error ensuring initial statistics row for exam ${currentExam.id} via UseCase", e)
                 }
             }
+        }
+
+        viewModelScope.launch {
+            combine(
+                userPreferencesRepository.selectedSubjectFiltersFlow,
+                selectedExam
+            ) { persistedSubjectNames, currentExam ->
+                Log.d(TAG, "Persisted subject names: $persistedSubjectNames for exam: ${currentExam.id}")
+                val validPersistedSubjects = persistedSubjectNames
+                    .mapNotNull { name ->
+                        try {
+                            QuestionSubject.valueOf(name)
+                        } catch (e: IllegalArgumentException) {
+                            Log.w(TAG, "Invalid subject name '$name' in preferences.", e)
+                            null
+                        }
+                    }
+                    .filter { subject -> currentExam.subjects.contains(subject) }
+                    .toSet()
+
+                Log.d(TAG, "Validated persisted subjects for exam ${currentExam.id}: $validPersistedSubjects")
+                _appliedSubjectFilters.value = validPersistedSubjects
+            }.collect() // Oppure .launchIn(viewModelScope),considerare differenze
         }
     }
 
@@ -153,15 +172,14 @@ class MainViewModel @Inject constructor(
 
     fun prepareQuiz(questionIdsString: String?, useAllSubjectsFromNav: Boolean) {
         val currentExamId = selectedExam.value.id
-        Log.d(TAG, "prepareQuiz called for exam: $currentExamId. questionIdsString: '$questionIdsString', useAllSubjectsFromNav: $useAllSubjectsFromNav")
+        Log.d(TAG, "prepareQuiz called for exam: $currentExamId. questionIdsString: '$questionIdsString', useAllSubjectsFromNav: $useAllSubjectsFromNav, appliedFilters: ${_appliedSubjectFilters.value.joinToString { it.name }}")
         viewModelScope.launch {
             try {
                 val quizSetupData: QuizSetupData = getQuizDataUseCase(
                     examId = currentExamId,
                     questionIdsString = questionIdsString,
                     useAllSubjectsFlag = useAllSubjectsFromNav,
-                    currentAppliedFilters = _appliedSubjectFilters.value,
-                    questionCount = selectedCount.value
+                    currentAppliedFilters = _appliedSubjectFilters.value
                 )
 
                 _questionSet.value = quizSetupData.questions
@@ -199,6 +217,11 @@ class MainViewModel @Inject constructor(
         val currentExamId = selectedExam.value.id
         Log.d(TAG, "applySubjectFilters called with ${selectedSubjects.size} subjects for exam: $currentExamId.")
         _appliedSubjectFilters.value = selectedSubjects
+
+        viewModelScope.launch {
+            userPreferencesRepository.updateSelectedSubjectFilters(selectedSubjects.map { it.name }.toSet())
+            Log.d(TAG, "Persisted selected subjects: ${selectedSubjects.map { it.name }}")
+        }
         prepareQuiz(questionIdsString = null, useAllSubjectsFromNav = false)
     }
 
@@ -206,7 +229,6 @@ class MainViewModel @Inject constructor(
         val currentExamId = selectedExam.value.id
         Log.d(TAG, "refreshQuestions called for exam: $currentExamId.")
         val currentQuestionIdsString = if (_isReviewQuizMode.value) reviewQuestionIdsInternal?.joinToString(",") else null
-        //determina le domande da usare
         val useAllSubjects = !_isReviewQuizMode.value && _appliedSubjectFilters.value.isEmpty()
         prepareQuiz(currentQuestionIdsString, useAllSubjects)
     }
@@ -254,6 +276,6 @@ class MainViewModel @Inject constructor(
     fun retakeQuiz() {
         Log.d(TAG, "retakeQuiz called for exam: ${selectedExam.value.id}.")
         _quizSubmitted.value = false
-        refreshQuestions() // Riutilizza i valori presenti
+        refreshQuestions()
     }
 }

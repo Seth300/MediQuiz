@@ -13,6 +13,8 @@ import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.rememberScrollState // Added import
+import androidx.compose.foundation.verticalScroll // Added import
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -22,12 +24,19 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.mediquiz.R
@@ -44,7 +53,7 @@ fun MakeQuizScreen(
     val quizSubmitted by viewModel.quizSubmitted.collectAsStateWithLifecycle()
 
     if (questionSet.isEmpty()) {
-        Surface(modifier = modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) { // <<< ADDED SURFACE
+        Surface(modifier = modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
             Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 Text(stringResource(id = R.string.quiz_no_questions_loading))
             }
@@ -131,7 +140,7 @@ fun MakeQuizScreen(
                     onClick = { viewModel.submitQuiz() },
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(start = 16.dp, end = 16.dp, bottom = 16.dp, top = 8.dp) // Adjusted padding
+                        .padding(start = 16.dp, end = 16.dp, bottom = 16.dp, top = 8.dp)
                 ) {
                     Text(stringResource(id = R.string.quiz_button_submit))
                 }
@@ -139,7 +148,6 @@ fun MakeQuizScreen(
         }
     }
 }
-
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -155,16 +163,52 @@ fun MakeQuizQuestion(
             .fillMaxSize()
             .padding(16.dp)
     ) {
+        //TODO: al momento la domanda può occupare teoricamente tutto lo spazio sullo schermo, sistemare
+        val initialQuestionFontSize = MaterialTheme.typography.titleLarge.fontSize
+        val minQuestionFontSize = MaterialTheme.typography.labelSmall.fontSize
+        val questionScaleFactor = 0.95f
+
+        var questionTextSize by remember(question.questionText) { mutableStateOf(initialQuestionFontSize) }
+        var questionReadyToDraw by remember(question.questionText) { mutableStateOf(false) }
+
         Card(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = 16.dp)
         ) {
-            Text(
-                text = question.questionText,
-                modifier = Modifier.padding(16.dp),
-                style = MaterialTheme.typography.titleLarge
-            )
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(min = 56.dp)
+                    .verticalScroll(rememberScrollState())
+                    .padding(16.dp)
+                    .alpha(if (questionReadyToDraw) 1f else 0f)
+            ) {
+                Text(
+                    text = question.questionText,
+                    fontSize = questionTextSize,
+                    maxLines = Int.MAX_VALUE,
+                    overflow = TextOverflow.Ellipsis,
+                    style = MaterialTheme.typography.titleLarge.copy(
+                        fontSize = questionTextSize,
+                        lineHeight = questionTextSize * 0.9f
+                    ),
+                    onTextLayout = { textLayoutResult ->
+                        if (!questionReadyToDraw) {
+                            val didOverflowHeight = textLayoutResult.didOverflowHeight
+                            val didOverflowWidth = textLayoutResult.didOverflowWidth
+                            if ((didOverflowHeight || didOverflowWidth) && questionTextSize > minQuestionFontSize) {
+                                questionTextSize = questionTextSize * questionScaleFactor
+                                if (questionTextSize < minQuestionFontSize) {
+                                    questionTextSize = minQuestionFontSize
+                                }
+                            } else {
+                                questionReadyToDraw = true
+                            }
+                        }
+                    }
+                )
+            }
         }
 
         val answers = question.listOfAnswers
@@ -205,16 +249,9 @@ fun MakeQuizQuestion(
                 }
             }
         }
-
-        //if (selectedAnswerForThisQuestion != null) {
-            //Text(
-                //text = stringResource(id = R.string.quiz_you_selected, selectedAnswerForThisQuestion),
-                //modifier = Modifier.padding(top = 16.dp),
-                //style = MaterialTheme.typography.labelLarge
-            //)
-        //}
     }
 }
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -224,6 +261,13 @@ fun AnswerCard(
     onClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
+    val initialFontSize = MaterialTheme.typography.bodyLarge.fontSize
+    val minFontSize = MaterialTheme.typography.labelSmall.fontSize
+    val scaleFactor = 0.9f
+
+    var textSize by remember(text) { mutableStateOf(initialFontSize) }
+    var readyToDraw by remember(text) { mutableStateOf(false) }
+
     Card(
         onClick = onClick,
         modifier = modifier.heightIn(min = 72.dp),
@@ -239,9 +283,35 @@ fun AnswerCard(
         Box(
             contentAlignment = Alignment.Center,
             modifier = Modifier
-                .padding(16.dp)
+                .verticalScroll(rememberScrollState())
+                .padding(horizontal = 8.dp, vertical = 4.dp) 
+                .alpha(if (readyToDraw) 1f else 0f) 
         ) {
-            Text(text = text, textAlign = TextAlign.Center)
+            Text(
+                text = text,
+                textAlign = TextAlign.Center,
+                fontSize = textSize,
+                maxLines = Int.MAX_VALUE,
+                overflow = TextOverflow.Ellipsis,
+                style = MaterialTheme.typography.bodyLarge.copy(
+                    fontSize = textSize,
+                    lineHeight = textSize * 0.9f 
+                ),
+                onTextLayout = { textLayoutResult ->
+                    if (!readyToDraw) { 
+                        val didOverflowHeight = textLayoutResult.didOverflowHeight
+                        val didOverflowWidth = textLayoutResult.didOverflowWidth
+                        if ((didOverflowHeight || didOverflowWidth) && textSize > minFontSize) {
+                            textSize = textSize * scaleFactor
+                            if (textSize < minFontSize) {
+                                textSize = minFontSize
+                            }
+                        } else {
+                            readyToDraw = true
+                        }
+                    }
+                }
+            )
         }
     }
 }
@@ -310,3 +380,4 @@ fun PreviewMakeQuizScreen() {
 fun PreviewQuizResultsScreen() {
     QuizResultsScreen(onNavigateHome = {})
 }
+

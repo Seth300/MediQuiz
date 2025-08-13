@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue // Ensure this import is present if using 'by' delegate
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -117,10 +118,7 @@ fun MediQuizNavHost(
 
             val currentSelectedExam = mainViewModel.selectedExam.collectAsState().value
             val currentSelectedCount = mainViewModel.selectedCount.collectAsState().value
-
-            LaunchedEffect(mainViewModel.appliedSubjectFilters.collectAsState().value) {
-                subjectFilterViewModel.setCurrentFilters(mainViewModel.appliedSubjectFilters.value)
-            }
+            val initialFilters by mainViewModel.appliedSubjectFilters.collectAsState()
 
             SubjectFilterScreen(
                 subjectFilterViewModel = subjectFilterViewModel,
@@ -132,6 +130,7 @@ fun MediQuizNavHost(
                 onCountChanged = { newCount ->
                     mainViewModel.updateSelectedCount(newCount)
                 },
+                initialSelectedFilters = initialFilters,
                 onApplyFilters = { filters ->
                     mainViewModel.applySubjectFilters(filters)
                     navController.popBackStack()
