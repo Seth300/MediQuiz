@@ -2846,13 +2846,13 @@
    "examId": "au2",
    "questionText": "Il colon iliaco",
    "questionAnswers": [
-      "Decorre dalla cresta iliaca destra al margine mediale del muscolo grande psoas",
+      "Decorre dalla cresta iliaca sinistra al margine mediale del muscolo grande psoas",
       "Ha rapporto posteriormente con l'arteria iliaca interna",
       "Ha rapporto lateralmente con il muscolo iliaco",
       "Ha rapporto anteriormente con le anse del tenue",
       "Tutte le precedenti sono errate"
    ],
-   "correctAnswer": "Decorre dalla cresta iliaca destra al margine mediale del muscolo grande psoas",
+   "correctAnswer": "Decorre dalla cresta iliaca sinistra al margine mediale del muscolo grande psoas",
    "subject": "INTESTINO_CRASSO"
 },
  {
