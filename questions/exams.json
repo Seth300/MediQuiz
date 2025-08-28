@@ -7,29 +7,119 @@
         "id": "au2_g_cardio",
         "displayName": "Apparato Cardiocircolatorio",
         "subjects": [
-          {
-            "id": "APP_GEN_MASC",
-            "displayName": "Cuore"
-          },
-          {
-            "id": "au2_s_vasi",
-            "displayName": "Vasi Sanguigni"
-          }
-        ]
-      },
-      {
-        "id": "au2_g_resp",
-        "displayName": "Apparato Respiratorio",
-        "subjects": [
-          {
-            "id": "au2_s_polmoni",
-            "displayName": "Polmoni"
-          },
-          {
-            "id": "au2_s_vieaeree",
-            "displayName": "Vie Aeree Superiori"
-          }
-        ]
+ {
+   "id": "CAVO_ORALE",
+   "displayName": "CAVO_ORALE"
+ },
+ {
+   "id": "FARINGE",
+   "displayName": "FARINGE"
+ },
+ {
+   "id": "PAROTIDE",
+   "displayName": "PAROTIDE"
+ },
+ {
+   "id": "TIROIDE",
+   "displayName": "TIROIDE"
+ },
+ {
+   "id": "ESOFAGO",
+   "displayName": "ESOFAGO"
+ },
+ {
+   "id": "STOMACO",
+   "displayName": "STOMACO"
+ },
+ {
+   "id": "INTESTINO_TENUE",
+   "displayName": "INTESTINO_TENUE"
+ },
+ {
+   "id": "INTESTINO_CRASSO",
+   "displayName": "INTESTINO_CRASSO"
+ },
+ {
+   "id": "FEGATO",
+   "displayName": "FEGATO"
+ },
+ {
+   "id": "PANCREAS",
+   "displayName": "PANCREAS"
+ },
+ {
+   "id": "RENI",
+   "displayName": "RENI"
+ },
+ {
+   "id": "SURRENE",
+   "displayName": "SURRENE"
+ },
+ {
+   "id": "VESCICA",
+   "displayName": "VESCICA"
+ },
+ {
+   "id": "APP_GEN_MASC",
+   "displayName": "APP_GEN_MASC"
+ },
+ {
+   "id": "APP_GEN_FEMM.",
+   "displayName": "APP_GEN_FEMM."
+ },
+ {
+   "id": "SNP",
+   "displayName": "SNP"
+ },
+ {
+   "id": "SNC",
+   "displayName": "SNC"
+ },
+ {
+   "id": "MIDOLLO_SPINALE",
+   "displayName": "MIDOLLO_SPINALE"
+ },
+ {
+   "id": "BULBO_SPINALE",
+   "displayName": "BULBO_SPINALE"
+ },
+ {
+   "id": "CERVELLETTO",
+   "displayName": "CERVELLETTO"
+ },
+ {
+   "id": "MESENCEFALO",
+   "displayName": "MESENCEFALO"
+ },
+ {
+   "id": "TRONCO_ENCEFALICO",
+   "displayName": "TRONCO_ENCEFALICO"
+ },
+ {
+   "id": "TALAMO",
+   "displayName": "TALAMO"
+ },
+ {
+   "id": "TELENCEFALO",
+   "displayName": "TELENCEFALO"
+ },
+ {
+   "id": "IPOFISI",
+   "displayName": "IPOFISI"
+ },
+ {
+   "id": "VISTA",
+   "displayName": "VISTA"
+ },
+ {
+   "id": "UDITO",
+   "displayName": "UDITO"
+ },
+ {
+   "id": "NERVI_CRANICI",
+   "displayName": "NERVI_CRANICI"
+ }
+]
       }
     ]
   },
