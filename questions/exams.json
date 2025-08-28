@@ -8,7 +8,7 @@
         "displayName": "Apparato Cardiocircolatorio",
         "subjects": [
           {
-            "id": "au2_s_cuore",
+            "id": "APP_GEN_MASC",
             "displayName": "Cuore"
           },
           {
