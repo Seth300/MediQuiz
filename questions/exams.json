@@ -1,0 +1,104 @@
+[
+  {
+    "id": "au2",
+    "displayName": "Anatomia Umana 2",
+    "subjectGroups": [
+      {
+        "id": "au2_g_cardio",
+        "displayName": "Apparato Cardiocircolatorio",
+        "subjects": [
+          {
+            "id": "au2_s_cuore",
+            "displayName": "Cuore"
+          },
+          {
+            "id": "au2_s_vasi",
+            "displayName": "Vasi Sanguigni"
+          }
+        ]
+      },
+      {
+        "id": "au2_g_resp",
+        "displayName": "Apparato Respiratorio",
+        "subjects": [
+          {
+            "id": "au2_s_polmoni",
+            "displayName": "Polmoni"
+          },
+          {
+            "id": "au2_s_vieaeree",
+            "displayName": "Vie Aeree Superiori"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mi1",
+    "displayName": "Microbiologia e Immunologia",
+    "subjectGroups": [
+      {
+        "id": "mi1_g_bact",
+        "displayName": "Batteriologia",
+        "subjects": [
+          {
+            "id": "mi1_s_cocchi_pos",
+            "displayName": "Cocchi Gram Positivi"
+          },
+          {
+            "id": "mi1_s_bacilli_neg",
+            "displayName": "Bacilli Gram Negativi"
+          }
+        ]
+      },
+      {
+        "id": "mi1_g_immuno",
+        "displayName": "Immunologia",
+        "subjects": [
+          {
+            "id": "mi1_s_imm_innata",
+            "displayName": "Immunità Innata"
+          },
+          {
+            "id": "mi1_s_imm_adatt",
+            "displayName": "Immunità Adattativa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fu2",
+    "displayName": "Fisiologia Umana 2",
+    "subjectGroups": [
+      {
+        "id": "fu2_g_nervoso",
+        "displayName": "Sistema Nervoso",
+        "subjects": [
+          {
+            "id": "fu2_s_neuroni",
+            "displayName": "Neuroni e Sinapsi"
+          },
+          {
+            "id": "fu2_s_sna",
+            "displayName": "Sistema Nervoso Autonomo"
+          }
+        ]
+      },
+      {
+        "id": "fu2_g_endocrino",
+        "displayName": "Sistema Endocrino",
+        "subjects": [
+          {
+            "id": "fu2_s_ipofisi",
+            "displayName": "Ormoni Ipofisari"
+          },
+          {
+            "id": "fu2_s_tiroide",
+            "displayName": "Ormoni Tiroidei"
+          }
+        ]
+      }
+    ]
+  }
+]
